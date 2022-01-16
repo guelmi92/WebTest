@@ -16,7 +16,6 @@ Crypto Punks">
 <meta name="categories" content="NFT">
 <meta name="robots" content="index, follow">
 <meta name="revisit-after" content="365 days">
-<meta name="generator" content="WYSIWYG Web Builder 17 Trial Version - https://www.wysiwygwebbuilder.com">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
 <style>
@@ -68,6 +67,16 @@ input:focus, textarea:focus, select:focus
 <link href="css/dark-hive/jquery-ui.min.css" rel="stylesheet">
 <link href="css/font-awesome.min.css" rel="stylesheet">
 <style>
+@font-face
+{
+   font-family: "Pixellari";
+   font-display: swap;
+   src: url('fonts/Pixellari.woff2') format('woff2'),
+        url('fonts/Pixellari.woff') format('woff'),
+        url('fonts/Pixellari.ttf') format('truetype'),
+        url('fonts/Pixellari.svg#Pixellari') format('svg'),
+        url('fonts/Pixellari.eot') format('embedded-opentype');
+}
 @-webkit-keyframes animate-fade-out
 {
    0% { opacity: 1;  }
@@ -119,39 +128,81 @@ input:focus, textarea:focus, select:focus
 @media only screen and (max-width: 767px)
 {
 }
-#GalleryShape3
+#wb_About3 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_About3 div
+{
+   text-align: left;
+}
+#wb_About2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_About2 div
+{
+   text-align: left;
+}
+#ShapeP1
 {
    border-width: 0;
    vertical-align: top;
 }
-#GalleryShape3
+#ShapeP1
 {
    filter: drop-shadow(0px 0px 5px rgba(68,114,196,0.20));
 }
-#GalleryShape2
+#wb_TitleP1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_TitleP1 div
+{
+   text-align: left;
+}
+#AboutShape1
 {
    border-width: 0;
    vertical-align: top;
 }
-#GalleryShape2
+#AboutShape1
 {
    filter: drop-shadow(0px 0px 5px rgba(68,114,196,0.20));
 }
-#FaqShape3
+#AboutShape3
 {
    border-width: 0;
    vertical-align: top;
 }
-#FaqShape3
+#AboutShape3
 {
    filter: drop-shadow(0px 0px 5px rgba(68,114,196,0.20));
 }
-#FaqShape2
+#AboutShape2
 {
    border-width: 0;
    vertical-align: top;
 }
-#FaqShape2
+#AboutShape2
 {
    filter: drop-shadow(0px 0px 5px rgba(68,114,196,0.20));
 }
@@ -173,21 +224,44 @@ input:focus, textarea:focus, select:focus
 {
    filter: drop-shadow(0px 0px 5px rgba(68,114,196,0.20));
 }
-#AboutShape3
+#FaqShape3
 {
    border-width: 0;
    vertical-align: top;
 }
-#AboutShape3
+#FaqShape3
 {
    filter: drop-shadow(0px 0px 5px rgba(68,114,196,0.20));
 }
-#AboutShape2
+#FaqShape2
 {
    border-width: 0;
    vertical-align: top;
 }
-#AboutShape2
+#FaqShape2
+{
+   filter: drop-shadow(0px 0px 5px rgba(68,114,196,0.20));
+}
+#MapShape768
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#GalleryShape3
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#GalleryShape3
+{
+   filter: drop-shadow(0px 0px 5px rgba(68,114,196,0.20));
+}
+#GalleryShape2
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#GalleryShape2
 {
    filter: drop-shadow(0px 0px 5px rgba(68,114,196,0.20));
 }
@@ -242,34 +316,6 @@ input:focus, textarea:focus, select:focus
    background: #00C024;
    -webkit-transition: background 500ms linear 0ms;
    transition: background 500ms linear 0ms;
-}
-#ShapeP1
-{
-   border-width: 0;
-   vertical-align: top;
-}
-#ShapeP1
-{
-   filter: drop-shadow(0px 0px 5px rgba(68,114,196,0.20));
-}
-#wb_TitleP1 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_TitleP1 div
-{
-   text-align: left;
-}
-#MapShape768
-{
-   border-width: 0;
-   vertical-align: top;
 }
 #wb_FaqText1 
 {
@@ -468,15 +514,6 @@ input:focus, textarea:focus, select:focus
 {
    filter: drop-shadow(0px 0px 5px rgba(68,114,196,0.20));
 }
-#AboutShape1
-{
-   border-width: 0;
-   vertical-align: top;
-}
-#AboutShape1
-{
-   filter: drop-shadow(0px 0px 5px rgba(68,114,196,0.20));
-}
 #RoadmapShape1
 {
    border-width: 0;
@@ -592,17 +629,17 @@ input:focus, textarea:focus, select:focus
 }
 #RoadmapIcon1
 {
-   height: 17px;
-   width: 17px;
+   height: 20px;
+   width: 20px;
 }
 #RoadmapIcon1 i
 {
    color: #FFFFFF;
    display: inline-block;
-   font-size: 17px;
-   line-height: 17px;
+   font-size: 20px;
+   line-height: 20px;
    vertical-align: middle;
-   width: 16px;
+   width: 19px;
 }
 #RoadmapIcon1:hover i
 {
@@ -801,17 +838,17 @@ input:focus, textarea:focus, select:focus
 }
 #Phase5Icon
 {
-   height: 17px;
-   width: 17px;
+   height: 20px;
+   width: 20px;
 }
 #Phase5Icon i
 {
    color: #FFFFFF;
    display: inline-block;
-   font-size: 17px;
-   line-height: 17px;
+   font-size: 20px;
+   line-height: 20px;
    vertical-align: middle;
-   width: 16px;
+   width: 19px;
 }
 #Phase5Icon:hover i
 {
@@ -871,17 +908,17 @@ input:focus, textarea:focus, select:focus
 }
 #Phase4Icon
 {
-   height: 17px;
-   width: 17px;
+   height: 20px;
+   width: 20px;
 }
 #Phase4Icon i
 {
    color: #FFFFFF;
    display: inline-block;
-   font-size: 17px;
-   line-height: 17px;
+   font-size: 20px;
+   line-height: 20px;
    vertical-align: middle;
-   width: 16px;
+   width: 19px;
 }
 #Phase4Icon:hover i
 {
@@ -955,17 +992,17 @@ input:focus, textarea:focus, select:focus
 }
 #Phase3Icon
 {
-   height: 17px;
-   width: 17px;
+   height: 20px;
+   width: 20px;
 }
 #Phase3Icon i
 {
    color: #FFFFFF;
    display: inline-block;
-   font-size: 17px;
-   line-height: 17px;
+   font-size: 20px;
+   line-height: 20px;
    vertical-align: middle;
-   width: 16px;
+   width: 19px;
 }
 #Phase3Icon:hover i
 {
@@ -1011,17 +1048,17 @@ input:focus, textarea:focus, select:focus
 }
 #Phase2Icon
 {
-   height: 17px;
-   width: 17px;
+   height: 20px;
+   width: 20px;
 }
 #Phase2Icon i
 {
    color: #FFFFFF;
    display: inline-block;
-   font-size: 17px;
-   line-height: 17px;
+   font-size: 20px;
+   line-height: 20px;
    vertical-align: middle;
-   width: 16px;
+   width: 19px;
 }
 #Phase2Icon:hover i
 {
@@ -1461,7 +1498,65 @@ body
    background-color: #000000;
    background-image: none;
 }
-#wb_GalleryShape3
+#wb_About3
+{
+   left: 57px !important;
+   top: 784px !important;
+   width: 525px !important;
+   height: 15px !important;
+   visibility: hidden !important;
+   display: none !important;
+}
+#wb_About3
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_About2
+{
+   left: 46px !important;
+   top: 421px !important;
+   width: 370px !important;
+   height: 15px !important;
+   visibility: hidden !important;
+   display: none !important;
+}
+#wb_About2
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_ShapeP1
+{
+   left: 136px !important;
+   top: 1426px !important;
+   visibility: visible !important;
+   display: inline !important;
+   margin: 0;
+}
+#wb_TitleP1
+{
+   left: 136px !important;
+   top: 1410px !important;
+   width: 103px !important;
+   height: 16px !important;
+   visibility: visible !important;
+   display: inline !important;
+}
+#wb_TitleP1
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_AboutShape1
+{
+   left: 38px !important;
+   top: 328px !important;
+   visibility: visible !important;
+   display: inline !important;
+   margin: 0;
+}
+#wb_AboutShape3
 {
    left: 38px !important;
    top: 328px !important;
@@ -1469,23 +1564,7 @@ body
    display: none !important;
    margin: 0;
 }
-#wb_GalleryShape2
-{
-   left: 38px !important;
-   top: 328px !important;
-   visibility: hidden !important;
-   display: none !important;
-   margin: 0;
-}
-#wb_FaqShape3
-{
-   left: 38px !important;
-   top: 328px !important;
-   visibility: hidden !important;
-   display: none !important;
-   margin: 0;
-}
-#wb_FaqShape2
+#wb_AboutShape2
 {
    left: 38px !important;
    top: 328px !important;
@@ -1509,7 +1588,7 @@ body
    display: none !important;
    margin: 0;
 }
-#wb_AboutShape3
+#wb_FaqShape3
 {
    left: 38px !important;
    top: 328px !important;
@@ -1517,7 +1596,31 @@ body
    display: none !important;
    margin: 0;
 }
-#wb_AboutShape2
+#wb_FaqShape2
+{
+   left: 38px !important;
+   top: 328px !important;
+   visibility: hidden !important;
+   display: none !important;
+   margin: 0;
+}
+#wb_MapShape768
+{
+   left: 38px !important;
+   top: 1376px !important;
+   visibility: visible !important;
+   display: inline !important;
+   margin: 0;
+}
+#wb_GalleryShape3
+{
+   left: 38px !important;
+   top: 328px !important;
+   visibility: hidden !important;
+   display: none !important;
+   margin: 0;
+}
+#wb_GalleryShape2
 {
    left: 38px !important;
    top: 328px !important;
@@ -1580,7 +1683,7 @@ body
 #wb_TextP1
 {
    left: 80px !important;
-   top: 1457px !important;
+   top: 1464px !important;
    width: 507px !important;
    height: 176px !important;
    visibility: visible !important;
@@ -1592,36 +1695,6 @@ body
 {
    margin: 0;
    padding: 0;
-}
-#wb_ShapeP1
-{
-   left: 136px !important;
-   top: 1422px !important;
-   visibility: visible !important;
-   display: inline !important;
-   margin: 0;
-}
-#wb_TitleP1
-{
-   left: 136px !important;
-   top: 1406px !important;
-   width: 103px !important;
-   height: 16px !important;
-   visibility: visible !important;
-   display: inline !important;
-}
-#wb_TitleP1
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_MapShape768
-{
-   left: 38px !important;
-   top: 1376px !important;
-   visibility: visible !important;
-   display: inline !important;
-   margin: 0;
 }
 #wb_FaqText1
 {
@@ -1767,7 +1840,7 @@ body
 {
    left: 38px !important;
    top: 3959px !important;
-   width: 643px !important;
+   width: 642px !important;
    height: 552px !important;
    visibility: visible !important;
    display: inline !important;
@@ -1797,7 +1870,7 @@ body
 #wb_ShapeP5
 {
    left: 136px !important;
-   top: 2569px !important;
+   top: 2578px !important;
    visibility: visible !important;
    display: inline !important;
    margin: 0;
@@ -1805,7 +1878,7 @@ body
 #wb_ShapeP4
 {
    left: 136px !important;
-   top: 2274px !important;
+   top: 2277px !important;
    visibility: visible !important;
    display: inline !important;
    margin: 0;
@@ -1813,7 +1886,7 @@ body
 #wb_ShapeP3
 {
    left: 136px !important;
-   top: 1979px !important;
+   top: 2009px !important;
    visibility: visible !important;
    display: inline !important;
    margin: 0;
@@ -1821,15 +1894,7 @@ body
 #wb_ShapeP2
 {
    left: 136px !important;
-   top: 1698px !important;
-   visibility: visible !important;
-   display: inline !important;
-   margin: 0;
-}
-#wb_AboutShape1
-{
-   left: 38px !important;
-   top: 328px !important;
+   top: 1714px !important;
    visibility: visible !important;
    display: inline !important;
    margin: 0;
@@ -1856,7 +1921,7 @@ body
 {
    left: 76px !important;
    top: 1394px !important;
-   width: 22px !important;
+   width: 20px !important;
    height: 20px !important;
    visibility: visible !important;
    display: inline !important;
@@ -1865,7 +1930,7 @@ body
 }
 #RoadmapIcon1
 {
-   width: 22px;
+   width: 20px;
    height: 20px;
 }
 #RoadmapIcon1 i
@@ -1897,8 +1962,8 @@ body
 #wb_TextP5
 {
    left: 80px !important;
-   top: 2617px !important;
-   width: 267px !important;
+   top: 2616px !important;
+   width: 506px !important;
    height: 80px !important;
    visibility: visible !important;
    display: inline !important;
@@ -1966,8 +2031,8 @@ body
 #wb_Phase5Icon
 {
    left: 76px !important;
-   top: 2541px !important;
-   width: 22px !important;
+   top: 2546px !important;
+   width: 20px !important;
    height: 20px !important;
    visibility: visible !important;
    display: inline !important;
@@ -1976,7 +2041,7 @@ body
 }
 #Phase5Icon
 {
-   width: 22px;
+   width: 20px;
    height: 20px;
 }
 #Phase5Icon i
@@ -1988,7 +2053,7 @@ body
 #wb_TitleP5
 {
    left: 136px !important;
-   top: 2553px !important;
+   top: 2562px !important;
    width: 111px !important;
    height: 16px !important;
    visibility: visible !important;
@@ -2002,8 +2067,8 @@ body
 #wb_TextP4
 {
    left: 80px !important;
-   top: 2314px !important;
-   width: 511px !important;
+   top: 2315px !important;
+   width: 506px !important;
    height: 189px !important;
    visibility: visible !important;
    display: inline !important;
@@ -2016,8 +2081,8 @@ body
 #wb_Phase4Icon
 {
    left: 76px !important;
-   top: 2246px !important;
-   width: 22px !important;
+   top: 2245px !important;
+   width: 20px !important;
    height: 20px !important;
    visibility: visible !important;
    display: inline !important;
@@ -2026,7 +2091,7 @@ body
 }
 #Phase4Icon
 {
-   width: 22px;
+   width: 20px;
    height: 20px;
 }
 #Phase4Icon i
@@ -2038,7 +2103,7 @@ body
 #wb_TitleP4
 {
    left: 136px !important;
-   top: 2258px !important;
+   top: 2261px !important;
    width: 124px !important;
    height: 16px !important;
    visibility: visible !important;
@@ -2052,8 +2117,8 @@ body
 #wb_TextP3
 {
    left: 80px !important;
-   top: 2019px !important;
-   width: 511px !important;
+   top: 2047px !important;
+   width: 506px !important;
    height: 156px !important;
    visibility: visible !important;
    display: inline !important;
@@ -2066,7 +2131,7 @@ body
 #wb_TitleP3
 {
    left: 136px !important;
-   top: 1963px !important;
+   top: 1993px !important;
    width: 111px !important;
    height: 16px !important;
    visibility: visible !important;
@@ -2080,8 +2145,8 @@ body
 #wb_Phase3Icon
 {
    left: 76px !important;
-   top: 1946px !important;
-   width: 22px !important;
+   top: 1977px !important;
+   width: 20px !important;
    height: 20px !important;
    visibility: visible !important;
    display: inline !important;
@@ -2090,7 +2155,7 @@ body
 }
 #Phase3Icon
 {
-   width: 22px;
+   width: 20px;
    height: 20px;
 }
 #Phase3Icon i
@@ -2102,8 +2167,8 @@ body
 #wb_TextP2
 {
    left: 80px !important;
-   top: 1735px !important;
-   width: 507px !important;
+   top: 1752px !important;
+   width: 506px !important;
    height: 183px !important;
    visibility: visible !important;
    display: inline !important;
@@ -2116,8 +2181,8 @@ body
 #wb_Phase2Icon
 {
    left: 76px !important;
-   top: 1670px !important;
-   width: 22px !important;
+   top: 1682px !important;
+   width: 20px !important;
    height: 20px !important;
    visibility: visible !important;
    display: inline !important;
@@ -2126,7 +2191,7 @@ body
 }
 #Phase2Icon
 {
-   width: 22px;
+   width: 20px;
    height: 20px;
 }
 #Phase2Icon i
@@ -2138,7 +2203,7 @@ body
 #wb_TitleP2
 {
    left: 136px !important;
-   top: 1682px !important;
+   top: 1698px !important;
    width: 124px !important;
    height: 16px !important;
    visibility: visible !important;
@@ -2199,8 +2264,8 @@ body
    top: 6px !important;
    width: 304px !important;
    height: 56px !important;
-   visibility: visible !important;
-   display: block !important;
+   visibility: hidden !important;
+   display: none !important;
    background-color: transparent;
    background-image: none;
    border: 0px solid #CCCCCC;
@@ -2484,7 +2549,35 @@ body
    background-color: #000000;
    background-image: none;
 }
-#wb_GalleryShape3
+#wb_About3
+{
+   left: 46px !important;
+   top: 784px !important;
+   width: 786px !important;
+   height: 253px !important;
+   visibility: hidden !important;
+   display: none !important;
+}
+#wb_About3
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_About2
+{
+   left: 46px !important;
+   top: 421px !important;
+   width: 370px !important;
+   height: 312px !important;
+   visibility: hidden !important;
+   display: none !important;
+}
+#wb_About2
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_ShapeP1
 {
    left: 264px !important;
    top: 170px !important;
@@ -2492,7 +2585,21 @@ body
    display: none !important;
    margin: 0;
 }
-#wb_GalleryShape2
+#wb_TitleP1
+{
+   left: 107px !important;
+   top: 1396px !important;
+   width: 99px !important;
+   height: 16px !important;
+   visibility: visible !important;
+   display: inline !important;
+}
+#wb_TitleP1
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_AboutShape1
 {
    left: 264px !important;
    top: 170px !important;
@@ -2500,7 +2607,7 @@ body
    display: none !important;
    margin: 0;
 }
-#wb_FaqShape3
+#wb_AboutShape3
 {
    left: 264px !important;
    top: 170px !important;
@@ -2508,7 +2615,7 @@ body
    display: none !important;
    margin: 0;
 }
-#wb_FaqShape2
+#wb_AboutShape2
 {
    left: 264px !important;
    top: 170px !important;
@@ -2532,7 +2639,7 @@ body
    display: none !important;
    margin: 0;
 }
-#wb_AboutShape3
+#wb_FaqShape3
 {
    left: 264px !important;
    top: 170px !important;
@@ -2540,7 +2647,31 @@ body
    display: none !important;
    margin: 0;
 }
-#wb_AboutShape2
+#wb_FaqShape2
+{
+   left: 264px !important;
+   top: 170px !important;
+   visibility: hidden !important;
+   display: none !important;
+   margin: 0;
+}
+#wb_MapShape768
+{
+   left: 265px !important;
+   top: 428px !important;
+   visibility: hidden !important;
+   display: none !important;
+   margin: 0;
+}
+#wb_GalleryShape3
+{
+   left: 264px !important;
+   top: 170px !important;
+   visibility: hidden !important;
+   display: none !important;
+   margin: 0;
+}
+#wb_GalleryShape2
 {
    left: 264px !important;
    top: 170px !important;
@@ -2602,8 +2733,8 @@ body
 }
 #wb_TextP1
 {
-   left: 22px !important;
-   top: 1413px !important;
+   left: 20px !important;
+   top: 1426px !important;
    width: 262px !important;
    height: 224px !important;
    visibility: visible !important;
@@ -2616,40 +2747,10 @@ body
    margin: 0;
    padding: 0;
 }
-#wb_ShapeP1
-{
-   left: 264px !important;
-   top: 170px !important;
-   visibility: hidden !important;
-   display: none !important;
-   margin: 0;
-}
-#wb_TitleP1
-{
-   left: 30px !important;
-   top: 1364px !important;
-   width: 99px !important;
-   height: 16px !important;
-   visibility: visible !important;
-   display: inline !important;
-}
-#wb_TitleP1
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_MapShape768
-{
-   left: 265px !important;
-   top: 428px !important;
-   visibility: hidden !important;
-   display: none !important;
-   margin: 0;
-}
 #wb_FaqText1
 {
    left: 16px !important;
-   top: 3045px !important;
+   top: 2963px !important;
    width: 262px !important;
    height: 98px !important;
    visibility: visible !important;
@@ -2668,7 +2769,7 @@ body
 #wb_FaqText2
 {
    left: 16px !important;
-   top: 3153px !important;
+   top: 3071px !important;
    width: 262px !important;
    height: 117px !important;
    visibility: visible !important;
@@ -2687,7 +2788,7 @@ body
 #wb_FaqText3
 {
    left: 16px !important;
-   top: 3280px !important;
+   top: 3198px !important;
    width: 262px !important;
    height: 151px !important;
    visibility: visible !important;
@@ -2706,7 +2807,7 @@ body
 #wb_FaqText4
 {
    left: 16px !important;
-   top: 3441px !important;
+   top: 3359px !important;
    width: 262px !important;
    height: 98px !important;
    visibility: visible !important;
@@ -2725,7 +2826,7 @@ body
 #wb_FaqText5
 {
    left: 16px !important;
-   top: 3549px !important;
+   top: 3467px !important;
    width: 262px !important;
    height: 579px !important;
    visibility: visible !important;
@@ -2744,7 +2845,7 @@ body
 #wb_FaqText6
 {
    left: 16px !important;
-   top: 4139px !important;
+   top: 4056px !important;
    width: 262px !important;
    height: 406px !important;
    visibility: visible !important;
@@ -2854,14 +2955,6 @@ body
    display: none !important;
    margin: 0;
 }
-#wb_AboutShape1
-{
-   left: 264px !important;
-   top: 170px !important;
-   visibility: hidden !important;
-   display: none !important;
-   margin: 0;
-}
 #wb_RoadmapShape1
 {
    left: 264px !important;
@@ -2884,8 +2977,8 @@ body
 {
    left: 138px !important;
    top: 1354px !important;
-   width: 20px !important;
-   height: 17px !important;
+   width: 18px !important;
+   height: 18px !important;
    visibility: visible !important;
    display: inline !important;
    margin: 0;
@@ -2893,14 +2986,14 @@ body
 }
 #RoadmapIcon1
 {
-   width: 20px;
-   height: 17px;
+   width: 18px;
+   height: 18px;
 }
 #RoadmapIcon1 i
 {
-   line-height: 17px;
-   font-size: 17px;
-   width: 16px;
+   line-height: 18px;
+   font-size: 18px;
+   width: 17px;
 }
 #wb_AboutTitle
 {
@@ -2924,8 +3017,8 @@ body
 }
 #wb_TextP5
 {
-   left: 22px !important;
-   top: 2825px !important;
+   left: 20px !important;
+   top: 2762px !important;
    width: 262px !important;
    height: 80px !important;
    visibility: visible !important;
@@ -2939,7 +3032,7 @@ body
 #wb_GalleryShape
 {
    left: 16px !important;
-   top: 4730px !important;
+   top: 4662px !important;
    visibility: visible !important;
    display: inline !important;
    margin: 0;
@@ -2947,7 +3040,7 @@ body
 #wb_GalleryTitle
 {
    left: 16px !important;
-   top: 4706px !important;
+   top: 4638px !important;
    visibility: visible !important;
    display: inline !important;
 }
@@ -2958,8 +3051,8 @@ body
 }
 #MintButton
 {
-   left: 98px !important;
-   top: 4595px !important;
+   left: 82px !important;
+   top: 4531px !important;
    width: 124px !important;
    height: 53px !important;
    visibility: visible !important;
@@ -2974,7 +3067,7 @@ body
 #wb_Shape9
 {
    left: 16px !important;
-   top: 3006px !important;
+   top: 2922px !important;
    visibility: visible !important;
    display: inline !important;
    margin: 0;
@@ -2982,7 +3075,7 @@ body
 #wb_FaqTitle
 {
    left: 16px !important;
-   top: 2982px !important;
+   top: 2898px !important;
    visibility: visible !important;
    display: inline !important;
 }
@@ -2994,9 +3087,9 @@ body
 #wb_Phase5Icon
 {
    left: 138px !important;
-   top: 2758px !important;
-   width: 20px !important;
-   height: 17px !important;
+   top: 2690px !important;
+   width: 18px !important;
+   height: 18px !important;
    visibility: visible !important;
    display: inline !important;
    margin: 0;
@@ -3004,19 +3097,19 @@ body
 }
 #Phase5Icon
 {
-   width: 20px;
-   height: 17px;
+   width: 18px;
+   height: 18px;
 }
 #Phase5Icon i
 {
-   line-height: 17px;
-   font-size: 17px;
-   width: 16px;
+   line-height: 18px;
+   font-size: 18px;
+   width: 17px;
 }
 #wb_TitleP5
 {
-   left: 27px !important;
-   top: 2768px !important;
+   left: 104px !important;
+   top: 2732px !important;
    width: 109px !important;
    height: 16px !important;
    visibility: visible !important;
@@ -3029,10 +3122,10 @@ body
 }
 #wb_TextP4
 {
-   left: 22px !important;
-   top: 2439px !important;
+   left: 20px !important;
+   top: 2407px !important;
    width: 262px !important;
-   height: 269px !important;
+   height: 253px !important;
    visibility: visible !important;
    display: inline !important;
 }
@@ -3044,9 +3137,9 @@ body
 #wb_Phase4Icon
 {
    left: 138px !important;
-   top: 2367px !important;
-   width: 20px !important;
-   height: 16px !important;
+   top: 2335px !important;
+   width: 18px !important;
+   height: 18px !important;
    visibility: visible !important;
    display: inline !important;
    margin: 0;
@@ -3054,19 +3147,19 @@ body
 }
 #Phase4Icon
 {
-   width: 20px;
-   height: 16px;
+   width: 18px;
+   height: 18px;
 }
 #Phase4Icon i
 {
-   line-height: 16px;
-   font-size: 16px;
-   width: 15px;
+   line-height: 18px;
+   font-size: 18px;
+   width: 17px;
 }
 #wb_TitleP4
 {
-   left: 185px !important;
-   top: 2378px !important;
+   left: 98px !important;
+   top: 2377px !important;
    width: 116px !important;
    height: 16px !important;
    visibility: visible !important;
@@ -3079,8 +3172,8 @@ body
 }
 #wb_TextP3
 {
-   left: 22px !important;
-   top: 2114px !important;
+   left: 20px !important;
+   top: 2101px !important;
    width: 262px !important;
    height: 204px !important;
    visibility: visible !important;
@@ -3093,8 +3186,8 @@ body
 }
 #wb_TitleP3
 {
-   left: 29px !important;
-   top: 2059px !important;
+   left: 103px !important;
+   top: 2071px !important;
    width: 109px !important;
    height: 16px !important;
    visibility: visible !important;
@@ -3108,9 +3201,9 @@ body
 #wb_Phase3Icon
 {
    left: 138px !important;
-   top: 2048px !important;
-   width: 20px !important;
-   height: 17px !important;
+   top: 2029px !important;
+   width: 18px !important;
+   height: 18px !important;
    visibility: visible !important;
    display: inline !important;
    margin: 0;
@@ -3118,18 +3211,18 @@ body
 }
 #Phase3Icon
 {
-   width: 20px;
-   height: 17px;
+   width: 18px;
+   height: 18px;
 }
 #Phase3Icon i
 {
-   line-height: 17px;
-   font-size: 17px;
-   width: 16px;
+   line-height: 18px;
+   font-size: 18px;
+   width: 17px;
 }
 #wb_TextP2
 {
-   left: 22px !important;
+   left: 20px !important;
    top: 1752px !important;
    width: 262px !important;
    height: 247px !important;
@@ -3144,9 +3237,9 @@ body
 #wb_Phase2Icon
 {
    left: 139px !important;
-   top: 1677px !important;
-   width: 20px !important;
-   height: 17px !important;
+   top: 1680px !important;
+   width: 18px !important;
+   height: 18px !important;
    visibility: visible !important;
    display: inline !important;
    margin: 0;
@@ -3154,19 +3247,19 @@ body
 }
 #Phase2Icon
 {
-   width: 20px;
-   height: 17px;
+   width: 18px;
+   height: 18px;
 }
 #Phase2Icon i
 {
-   line-height: 17px;
-   font-size: 17px;
-   width: 16px;
+   line-height: 18px;
+   font-size: 18px;
+   width: 17px;
 }
 #wb_TitleP2
 {
-   left: 185px !important;
-   top: 1685px !important;
+   left: 102px !important;
+   top: 1722px !important;
    width: 116px !important;
    height: 16px !important;
    visibility: visible !important;
@@ -3430,7 +3523,7 @@ body
 #wb_SlideShow320
 {
    left: 16px !important;
-   top: 4775px !important;
+   top: 4698px !important;
    width: 217px !important;
    height: 246px !important;
    visibility: visible !important;
@@ -3605,47 +3698,53 @@ $(document).ready(function()
 </div>
 </div>
 <div id="container">
-<div id="wb_GalleryShape3" style="position:absolute;left:153px;top:3823px;width:798px;height:10px;z-index:14;">
-<img src="images/img0023.png" id="GalleryShape3" alt="" width="798" height="10" style="width:798px;height:10px;"></div>
-<div id="wb_GalleryShape2" style="position:absolute;left:47px;top:3806px;width:904px;height:10px;z-index:15;">
-<img src="images/img0022.png" id="GalleryShape2" alt="" width="904" height="10" style="width:904px;height:10px;"></div>
-<div id="wb_FaqShape3" style="position:absolute;left:106px;top:2893px;width:845px;height:10px;z-index:16;">
-<img src="images/img0021.png" id="FaqShape3" alt="" width="845" height="10" style="width:845px;height:10px;"></div>
-<div id="wb_FaqShape2" style="position:absolute;left:47px;top:2876px;width:904px;height:10px;z-index:17;">
-<img src="images/img0020.png" id="FaqShape2" alt="" width="904" height="10" style="width:904px;height:10px;"></div>
-<div id="wb_RoadmapShape3" style="position:absolute;left:166px;top:1274px;width:785px;height:10px;z-index:18;">
-<img src="images/img0019.png" id="RoadmapShape3" alt="" width="785" height="10" style="width:785px;height:10px;"></div>
-<div id="wb_RoadmapShape2" style="position:absolute;left:47px;top:1257px;width:904px;height:10px;z-index:19;">
-<img src="images/img0018.png" id="RoadmapShape2" alt="" width="904" height="10" style="width:904px;height:10px;"></div>
-<div id="wb_AboutShape3" style="position:absolute;left:144px;top:349px;width:807px;height:10px;z-index:20;">
-<img src="images/img0017.png" id="AboutShape3" alt="" width="807" height="10" style="width:807px;height:10px;"></div>
-<div id="wb_AboutShape2" style="position:absolute;left:47px;top:332px;width:904px;height:10px;z-index:21;">
-<img src="images/img0005.png" id="AboutShape2" alt="" width="904" height="10" style="width:904px;height:10px;"></div>
-<div id="wb_RoadmapTextShape" style="position:absolute;left:459px;top:431px;width:298px;height:1624px;visibility:hidden;z-index:22;">
-<img src="images/img0004.png" id="RoadmapTextShape" alt="" width="298" height="1624" style="width:298px;height:1624px;"></div>
-<div id="wb_RoadmapPhaseShape" style="position:absolute;left:47px;top:1330px;width:904px;height:1414px;opacity:0.50;z-index:23;">
-<img src="images/img0006.png" id="RoadmapPhaseShape" alt="" width="904" height="1414" style="width:904px;height:1414px;"></div>
-<div id="wb_TextP1" style="position:absolute;left:130px;top:1407px;width:734px;height:144px;z-index:24;">
-<span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;"><strong> <br>&nbsp; </strong>DogeInu Punks is live and public&nbsp; sale is launch<br><br>&nbsp; First 1000 are Free. After the price is fixed to 0.05ETH for the remaining 9000.<br><br>&nbsp; (This represents some ETHs in giveaway with 0.05ETH as the starting price)<br><br><br></span></div>
-<div id="wb_ShapeP1" style="position:absolute;left:198px;top:1376px;width:200px;height:8px;z-index:25;">
+<div id="wb_About3" style="position:absolute;left:46px;top:784px;width:786px;height:253px;z-index:14;">
+<span style="color:#FFFFFF;font-family:Pixellari;font-size:21px;line-height:30px;">With new traits, a total of 140+ different attributes make up the collection.<br><br> DogeInu Punks is a randomness minting. Everyone has an equal chance to mint a valuable DogeInu Punk.<br><br>Come on and join the DogeInu Punks family.<br><br>The project is totally original and has no affiliation with Larva Labs.<br></span></div>
+<div id="wb_About2" style="position:absolute;left:46px;top:421px;width:370px;height:312px;z-index:15;">
+<span style="color:#000000;font-family:Arial;font-size:13px;line-height:30px;"> </span><span style="color:#FFFFFF;font-family:Pixellari;font-size:21px;line-height:30px;">The family of NFT punks is growing. The punks are back and this time in the form of an adorable dogs originally drawn in 32x32 pixels, enlarged and enhanced with a polaroid frame which makes them cuter and funnier.<br><br>The collection is composed by 10,000 NFTs inspired by the popular Crypto Punks.<br></span></div>
+<div id="wb_ShapeP1" style="position:absolute;left:198px;top:1376px;width:200px;height:8px;z-index:16;">
 <img src="images/img0007.png" id="ShapeP1" alt="" width="200" height="8" style="width:200px;height:8px;"></div>
-<div id="wb_TitleP1" style="position:absolute;left:198px;top:1360px;width:105px;height:16px;z-index:26;">
+<div id="wb_TitleP1" style="position:absolute;left:198px;top:1360px;width:105px;height:16px;z-index:17;">
 <span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;">FIRST PHASE</span></div>
-<div id="wb_MapShape768" style="position:absolute;left:38px;top:1376px;width:704px;height:1414px;visibility:hidden;z-index:27;">
+<div id="wb_AboutShape1" style="position:absolute;left:0px;top:374px;width:704px;height:10px;visibility:hidden;z-index:18;">
+<img src="images/img0002.png" id="AboutShape1" alt="" width="704" height="10" style="width:704px;height:10px;"></div>
+<div id="wb_AboutShape3" style="position:absolute;left:130px;top:349px;width:821px;height:10px;z-index:19;">
+<img src="images/img0017.png" id="AboutShape3" alt="" width="821" height="10" style="width:821px;height:10px;"></div>
+<div id="wb_AboutShape2" style="position:absolute;left:46px;top:332px;width:904px;height:10px;z-index:20;">
+<img src="images/img0005.png" id="AboutShape2" alt="" width="904" height="10" style="width:904px;height:10px;"></div>
+<div id="wb_RoadmapShape3" style="position:absolute;left:166px;top:1274px;width:785px;height:10px;z-index:21;">
+<img src="images/img0019.png" id="RoadmapShape3" alt="" width="785" height="10" style="width:785px;height:10px;"></div>
+<div id="wb_RoadmapShape2" style="position:absolute;left:46px;top:1257px;width:904px;height:10px;z-index:22;">
+<img src="images/img0018.png" id="RoadmapShape2" alt="" width="904" height="10" style="width:904px;height:10px;"></div>
+<div id="wb_FaqShape3" style="position:absolute;left:106px;top:2893px;width:845px;height:10px;z-index:23;">
+<img src="images/img0021.png" id="FaqShape3" alt="" width="845" height="10" style="width:845px;height:10px;"></div>
+<div id="wb_FaqShape2" style="position:absolute;left:46px;top:2876px;width:904px;height:10px;z-index:24;">
+<img src="images/img0020.png" id="FaqShape2" alt="" width="904" height="10" style="width:904px;height:10px;"></div>
+<div id="wb_MapShape768" style="position:absolute;left:38px;top:1376px;width:704px;height:1414px;visibility:hidden;z-index:25;">
 <img src="images/img0024.png" id="MapShape768" alt="" width="704" height="1414" style="width:704px;height:1414px;"></div>
-<div id="wb_FaqText1" style="position:absolute;left:15px;top:3591px;width:277px;height:98px;visibility:hidden;z-index:28;">
+<div id="wb_GalleryShape3" style="position:absolute;left:153px;top:3823px;width:798px;height:10px;z-index:26;">
+<img src="images/img0023.png" id="GalleryShape3" alt="" width="798" height="10" style="width:798px;height:10px;"></div>
+<div id="wb_GalleryShape2" style="position:absolute;left:46px;top:3806px;width:904px;height:10px;z-index:27;">
+<img src="images/img0022.png" id="GalleryShape2" alt="" width="904" height="10" style="width:904px;height:10px;"></div>
+<div id="wb_RoadmapTextShape" style="position:absolute;left:459px;top:431px;width:298px;height:1624px;visibility:hidden;z-index:28;">
+<img src="images/img0004.png" id="RoadmapTextShape" alt="" width="298" height="1624" style="width:298px;height:1624px;"></div>
+<div id="wb_RoadmapPhaseShape" style="position:absolute;left:46px;top:1330px;width:904px;height:1399px;opacity:0.50;z-index:29;">
+<img src="images/img0006.png" id="RoadmapPhaseShape" alt="" width="904" height="1399" style="width:904px;height:1399px;"></div>
+<div id="wb_TextP1" style="position:absolute;left:130px;top:1420px;width:734px;height:144px;z-index:30;">
+<span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;"><strong> <br>&nbsp; </strong>DogeInu Punks is live and public&nbsp; sale is launch<br><br>&nbsp; First 1000 are Free. After the price is fixed to 0.05ETH for the remaining 9000.<br><br>&nbsp; (This represents some ETHs in giveaway with 0.05ETH as the starting price)<br><br><br></span></div>
+<div id="wb_FaqText1" style="position:absolute;left:15px;top:3591px;width:277px;height:98px;visibility:hidden;z-index:31;">
 <span style="color:#FFFFFF;font-family:Pixellari;font-size:19px;"> <br>&nbsp; 1 - Public mint date</span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><br><br></span><span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;">&nbsp; Live now<br></span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><br></span></div>
-<div id="wb_FaqText2" style="position:absolute;left:16px;top:3699px;width:275px;height:117px;visibility:hidden;z-index:29;">
+<div id="wb_FaqText2" style="position:absolute;left:16px;top:3699px;width:275px;height:117px;visibility:hidden;z-index:32;">
 <span style="color:#FFFFFF;font-family:Pixellari;font-size:19px;"> <br>&nbsp; 2 - How much will it cost to mint each DogeInu Punk ?</span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><br><br></span><span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;">&nbsp; 0.05ETH excluding gas fees.<br></span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><br></span></div>
-<div id="wb_FaqText3" style="position:absolute;left:15px;top:3826px;width:276px;height:135px;visibility:hidden;z-index:30;">
+<div id="wb_FaqText3" style="position:absolute;left:15px;top:3826px;width:276px;height:135px;visibility:hidden;z-index:33;">
 <span style="color:#FFFFFF;font-family:Pixellari;font-size:19px;"><br>&nbsp; 3 - How many DogeInu Punks in total and can be minted in a single transaction ?</span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><br><br></span><span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;">&nbsp; Supply of 10,000 NFTs and 15 per tx.<br></span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><br></span></div>
-<div id="wb_FaqText4" style="position:absolute;left:15px;top:3971px;width:276px;height:98px;visibility:hidden;z-index:31;">
+<div id="wb_FaqText4" style="position:absolute;left:15px;top:3971px;width:276px;height:98px;visibility:hidden;z-index:34;">
 <span style="color:#FFFFFF;font-family:Pixellari;font-size:19px;"><br>&nbsp; 4 - Blockchain</span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><br><br></span><span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;">&nbsp; Ethereum<br></span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><br></span></div>
-<div id="wb_FaqText5" style="position:absolute;left:16px;top:4079px;width:274px;height:531px;visibility:hidden;z-index:32;">
+<div id="wb_FaqText5" style="position:absolute;left:16px;top:4079px;width:274px;height:531px;visibility:hidden;z-index:35;">
 <span style="color:#FFFFFF;font-family:Pixellari;font-size:19px;"><br>&nbsp; 5 - How to mint ?<br></span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><br></span><span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;">&nbsp; First, make sure you have enough $ETH in your wallet and that your wallet is on the correct mainnet (Ethereum's mainnet).<br><br>&nbsp; By simply clicking the Mint button, you will be redirected to the minting page and pressing &quot;connect to metamask&quot; to log into your Metamask wallet, select the amount and click the buy button. <br><br>&nbsp; If Metamask is installed correctly, a pop-up window will open and you just need to confirm the transaction. You can adjust the gas limit according to the network situation but it is not recommended to significantly lower the gas limit to avoid a transaction error.<br><br>&nbsp; After the mint is finished, you can directly view your NFT in Opensea at dogeinupunks collection and put it up for sale if you wish in the second market.<br><br><br><br><br><br><br></span></div>
-<div id="wb_FaqText6" style="position:absolute;left:17px;top:4620px;width:274px;height:390px;visibility:hidden;z-index:33;">
+<div id="wb_FaqText6" style="position:absolute;left:17px;top:4620px;width:274px;height:390px;visibility:hidden;z-index:36;">
 <span style="color:#FFFFFF;font-family:Pixellari;font-size:19px;"><br>&nbsp; 6 - What's different with&nbsp;&nbsp;&nbsp;&nbsp; others crypto punks projects ?<br></span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><br></span><span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;">&nbsp; DogeInu Punks has been redesigning&nbsp; from scratch and new traits have been added that don't exist in the original. <br><br>&nbsp; Along with similar punk types (Alien, Male, Female, etc ...), we've added new attributes like new backgrounds, pins, and outfits. In total there are 140+ attributes.<br><br>&nbsp; Now the punk-style dogs are cuter and funnier. Rarity traits will be revealed after the mint sold out.<br><br><br><br><br><br><br></span></div>
-<div id="wb_PhotoGallery1" style="position:absolute;left:47px;top:3868px;width:904px;height:194px;z-index:34;">
+<div id="wb_PhotoGallery1" style="position:absolute;left:46px;top:3868px;width:904px;height:194px;z-index:37;">
 <div id="PhotoGallery1">
    <div class="thumbnails">
       <div class="thumbnail">
@@ -3715,21 +3814,19 @@ $(document).ready(function()
       <div class="clearfix visible-col10"></div>
    </div>
 </div></div>
-<div id="wb_FaqShape1" style="position:absolute;left:99px;top:2910px;width:704px;height:10px;visibility:hidden;z-index:35;">
+<div id="wb_FaqShape1" style="position:absolute;left:99px;top:2910px;width:704px;height:10px;visibility:hidden;z-index:38;">
 <img src="images/img0012.png" id="FaqShape1" alt="" width="704" height="10" style="width:704px;height:10px;"></div>
-<div id="wb_ShapeP5" style="position:absolute;left:198px;top:2539px;width:200px;height:8px;z-index:36;">
+<div id="wb_ShapeP5" style="position:absolute;left:198px;top:2520px;width:200px;height:8px;z-index:39;">
 <img src="images/img0011.png" id="ShapeP5" alt="" width="200" height="8" style="width:200px;height:8px;"></div>
-<div id="wb_ShapeP4" style="position:absolute;left:198px;top:2228px;width:200px;height:8px;z-index:37;">
+<div id="wb_ShapeP4" style="position:absolute;left:198px;top:2219px;width:200px;height:8px;z-index:40;">
 <img src="images/img0010.png" id="ShapeP4" alt="" width="200" height="8" style="width:200px;height:8px;"></div>
-<div id="wb_ShapeP3" style="position:absolute;left:198px;top:1967px;width:200px;height:8px;z-index:38;">
+<div id="wb_ShapeP3" style="position:absolute;left:198px;top:1948px;width:200px;height:8px;z-index:41;">
 <img src="images/img0009.png" id="ShapeP3" alt="" width="200" height="8" style="width:200px;height:8px;"></div>
-<div id="wb_ShapeP2" style="position:absolute;left:198px;top:1647px;width:200px;height:8px;z-index:39;">
+<div id="wb_ShapeP2" style="position:absolute;left:198px;top:1648px;width:200px;height:8px;z-index:42;">
 <img src="images/img0008.png" id="ShapeP2" alt="" width="200" height="8" style="width:200px;height:8px;"></div>
-<div id="wb_AboutShape1" style="position:absolute;left:0px;top:374px;width:704px;height:10px;visibility:hidden;z-index:40;">
-<img src="images/img0002.png" id="AboutShape1" alt="" width="704" height="10" style="width:704px;height:10px;"></div>
-<div id="wb_RoadmapShape1" style="position:absolute;left:115px;top:1291px;width:704px;height:10px;visibility:hidden;z-index:41;">
+<div id="wb_RoadmapShape1" style="position:absolute;left:115px;top:1291px;width:704px;height:10px;visibility:hidden;z-index:43;">
 <img src="images/img0001.png" id="RoadmapShape1" alt="" width="704" height="10" style="width:704px;height:10px;"></div>
-<div id="wb_FaqAccordion" style="position:absolute;left:47px;top:2951px;width:904px;height:525px;z-index:42;">
+<div id="wb_FaqAccordion" style="position:absolute;left:46px;top:2951px;width:904px;height:525px;z-index:44;">
 <div id="FaqAccordion">
 <h4>Public mint date</h4>
 <div>
@@ -3767,56 +3864,56 @@ $(document).ready(function()
 </div>
 </div>
 </div>
-<div id="wb_RoadmapIcon1" style="position:absolute;left:130px;top:1351px;width:17px;height:17px;text-align:center;z-index:43;">
+<div id="wb_RoadmapIcon1" style="position:absolute;left:130px;top:1351px;width:20px;height:20px;text-align:center;z-index:45;">
 <div id="RoadmapIcon1"><i class="fa fa-flag-checkered"></i></div></div>
-<div id="wb_AboutTitle" style="position:absolute;left:47px;top:342px;width:215px;height:24px;z-index:44;">
-<div style="position:absolute;left:0px;top:0px;width:215px;height:24px;"><span style="color:#FFFFFF;font-family:Pixellari;font-size:24px;"><em>ABOUT</em></span></div>
+<div id="wb_AboutTitle" style="position:absolute;left:46px;top:342px;width:83px;height:24px;z-index:46;">
+<div style="position:absolute;left:0px;top:0px;width:83px;height:24px;"><span style="color:#FFFFFF;font-family:Pixellari;font-size:24px;"><em>ABOUT</em></span></div>
 </div>
-<div id="wb_AboutShape" style="position:absolute;left:99px;top:266px;width:215px;height:8px;visibility:hidden;z-index:45;">
-<img src="images/img0013.png" id="AboutShape" alt="" width="215" height="8" style="width:215px;height:8px;"></div>
-<div id="wb_TextP5" style="position:absolute;left:130px;top:2580px;width:734px;height:80px;z-index:46;">
+<div id="wb_AboutShape" style="position:absolute;left:99px;top:266px;width:272px;height:8px;visibility:hidden;z-index:47;">
+<img src="images/img0013.png" id="AboutShape" alt="" width="272" height="8" style="width:272px;height:8px;"></div>
+<div id="wb_TextP5" style="position:absolute;left:130px;top:2563px;width:734px;height:80px;z-index:48;">
 <span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;"><strong><br>&nbsp; </strong>To infinity and beyond.<br><br><br></span></div>
-<div id="wb_GalleryShape" style="position:absolute;left:99px;top:266px;width:215px;height:8px;visibility:hidden;z-index:47;">
-<img src="images/img0016.png" id="GalleryShape" alt="" width="215" height="8" style="width:215px;height:8px;"></div>
-<div id="wb_GalleryTitle" style="position:absolute;left:47px;top:3816px;width:217px;height:24px;z-index:48;">
-<div style="position:absolute;left:0px;top:0px;width:217px;height:24px;"><span style="color:#FFFFFF;font-family:Pixellari;font-size:24px;"><em>GALLERY</em></span></div>
+<div id="wb_GalleryShape" style="position:absolute;left:99px;top:266px;width:272px;height:8px;visibility:hidden;z-index:49;">
+<img src="images/img0016.png" id="GalleryShape" alt="" width="272" height="8" style="width:272px;height:8px;"></div>
+<div id="wb_GalleryTitle" style="position:absolute;left:46px;top:3816px;width:106px;height:24px;z-index:50;">
+<div style="position:absolute;left:0px;top:0px;width:106px;height:24px;"><span style="color:#FFFFFF;font-family:Pixellari;font-size:24px;"><em>GALLERY</em></span></div>
 </div>
-<button type="button" id="MintButton" onclick="window.location.href='https://www.mint.dogeinupunks.io';return false;" name="Mint" value="Mint" class="ui-button ui-corner-all ui-widget" style="position:absolute;left:389px;top:3627px;width:144px;height:59px;z-index:49;">Mint<span class="ui-button-icon ui-icon ui-primary"></span><span class="ui-button-icon-space"> </span></button>
-<div id="wb_Shape9" style="position:absolute;left:99px;top:266px;width:215px;height:8px;visibility:hidden;z-index:50;">
-<img src="images/img0015.png" id="Shape9" alt="" width="215" height="8" style="width:215px;height:8px;"></div>
-<div id="wb_FaqTitle" style="position:absolute;left:47px;top:2886px;width:215px;height:24px;z-index:51;">
-<div style="position:absolute;left:0px;top:0px;width:215px;height:24px;"><span style="color:#FFFFFF;font-family:Pixellari;font-size:24px;"><em>FAQ</em></span></div>
+<button type="button" id="MintButton" onclick="window.location.href='https://www.mint.dogeinupunks.io';return false;" name="Mint" value="Mint" class="ui-button ui-corner-all ui-widget" style="position:absolute;left:389px;top:3627px;width:144px;height:59px;z-index:51;">Mint<span class="ui-button-icon ui-icon ui-primary"></span><span class="ui-button-icon-space"> </span></button>
+<div id="wb_Shape9" style="position:absolute;left:99px;top:266px;width:272px;height:8px;visibility:hidden;z-index:52;">
+<img src="images/img0015.png" id="Shape9" alt="" width="272" height="8" style="width:272px;height:8px;"></div>
+<div id="wb_FaqTitle" style="position:absolute;left:46px;top:2886px;width:59px;height:24px;z-index:53;">
+<div style="position:absolute;left:0px;top:0px;width:59px;height:24px;"><span style="color:#FFFFFF;font-family:Pixellari;font-size:24px;"><em>FAQ</em></span></div>
 </div>
-<div id="wb_Phase5Icon" style="position:absolute;left:130px;top:2510px;width:17px;height:17px;text-align:center;z-index:52;">
+<div id="wb_Phase5Icon" style="position:absolute;left:130px;top:2494px;width:20px;height:20px;text-align:center;z-index:54;">
 <div id="Phase5Icon"><i class="fa fa-rocket"></i></div></div>
-<div id="wb_TitleP5" style="position:absolute;left:198px;top:2523px;width:109px;height:16px;z-index:53;">
+<div id="wb_TitleP5" style="position:absolute;left:198px;top:2504px;width:109px;height:16px;z-index:55;">
 <span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;"><strong> </strong>FIFTH PHASE</span></div>
-<div id="wb_TextP4" style="position:absolute;left:130px;top:2282px;width:734px;height:173px;z-index:54;">
+<div id="wb_TextP4" style="position:absolute;left:130px;top:2261px;width:734px;height:173px;z-index:56;">
 <span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;"><strong><br>&nbsp; </strong>Will be announced upon completion of the minting process including a charitable donation voted by the community and will assess the possibility of future collaboration with other similar projects to take the project to another level. </span><span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:16px;"><br><br></span><span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;">&nbsp; All this of course validated by the community members.<br></span><span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:16px;"><br><br><br></span></div>
-<div id="wb_Phase4Icon" style="position:absolute;left:130px;top:2198px;width:17px;height:17px;text-align:center;z-index:55;">
+<div id="wb_Phase4Icon" style="position:absolute;left:130px;top:2192px;width:20px;height:20px;text-align:center;z-index:57;">
 <div id="Phase4Icon"><i class="fa fa-hourglass"></i></div></div>
-<div id="wb_TitleP4" style="position:absolute;left:198px;top:2212px;width:122px;height:16px;z-index:56;">
+<div id="wb_TitleP4" style="position:absolute;left:198px;top:2203px;width:122px;height:16px;z-index:58;">
 <span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;">FOURTH PHASE</span></div>
-<div id="wb_TextP3" style="position:absolute;left:130px;top:2024px;width:734px;height:140px;z-index:57;">
+<div id="wb_TextP3" style="position:absolute;left:130px;top:1992px;width:734px;height:140px;z-index:59;">
 <span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;"><strong> <br>&nbsp; </strong>Based on DAOs (Decentralized Autonomous Organizations), the community will have the decision-making power and consensus will determine the path to follow. <br><br>&nbsp; All activity concerning the project will be transparent and fully public.<br><br><br></span></div>
-<div id="wb_TitleP3" style="position:absolute;left:198px;top:1951px;width:113px;height:16px;z-index:58;">
+<div id="wb_TitleP3" style="position:absolute;left:198px;top:1932px;width:113px;height:16px;z-index:60;">
 <span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;">THIRD PHASE</span></div>
-<div id="wb_Phase3Icon" style="position:absolute;left:130px;top:1942px;width:17px;height:17px;text-align:center;z-index:59;">
+<div id="wb_Phase3Icon" style="position:absolute;left:130px;top:1923px;width:20px;height:20px;text-align:center;z-index:61;">
 <div id="Phase3Icon"><i class="fa fa-bullhorn"></i></div></div>
-<div id="wb_TextP2" style="position:absolute;left:130px;top:1712px;width:734px;height:167px;z-index:60;">
+<div id="wb_TextP2" style="position:absolute;left:130px;top:1696px;width:734px;height:167px;z-index:62;">
 <span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:20px;"><strong> <br>&nbsp; </strong></span><span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;">Developping community trought Discord channel and other media. <br><br>&nbsp; Numerous giveaways for the community after 25% minting and the possibility to win Ethereums after the collection sold out.<br><br>&nbsp; According to the new traits added, the rarity classification will also be revealed</span><span style="color:#B7C2C8;font-family:Pixellari;font-size:16px;">. <br><br><br></span></div>
-<div id="wb_Phase2Icon" style="position:absolute;left:130px;top:1623px;width:17px;height:17px;text-align:center;z-index:61;">
+<div id="wb_Phase2Icon" style="position:absolute;left:130px;top:1624px;width:20px;height:20px;text-align:center;z-index:63;">
 <div id="Phase2Icon"><i class="fa fa-globe"></i></div></div>
-<div id="wb_TitleP2" style="position:absolute;left:198px;top:1631px;width:124px;height:16px;z-index:62;">
+<div id="wb_TitleP2" style="position:absolute;left:198px;top:1632px;width:124px;height:16px;z-index:64;">
 <span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;">SECOND PHASE</span></div>
-<div id="wb_RoadmapShape" style="position:absolute;left:99px;top:266px;width:215px;height:8px;visibility:hidden;z-index:63;">
-<img src="images/img0014.png" id="RoadmapShape" alt="" width="215" height="8" style="width:215px;height:8px;"></div>
-<div id="wb_RoadmapTitle" style="position:absolute;left:47px;top:1267px;width:215px;height:24px;z-index:64;">
-<div style="position:absolute;left:0px;top:0px;width:215px;height:24px;"><span style="color:#FFFFFF;font-family:Pixellari;font-size:24px;"><em>ROADMAP</em></span></div>
+<div id="wb_RoadmapShape" style="position:absolute;left:99px;top:266px;width:272px;height:8px;visibility:hidden;z-index:65;">
+<img src="images/img0014.png" id="RoadmapShape" alt="" width="272" height="8" style="width:272px;height:8px;"></div>
+<div id="wb_RoadmapTitle" style="position:absolute;left:46px;top:1267px;width:119px;height:24px;z-index:66;">
+<div style="position:absolute;left:0px;top:0px;width:119px;height:24px;"><span style="color:#FFFFFF;font-family:Pixellari;font-size:24px;"><em>ROADMAP</em></span></div>
 </div>
-<div id="wb_AboutText" style="position:absolute;left:47px;top:421px;width:424px;height:616px;z-index:65;">
+<div id="wb_AboutText" style="position:absolute;left:46px;top:421px;width:424px;height:616px;visibility:hidden;z-index:67;">
 <span style="color:#FFFFFF;font-family:Pixellari;font-size:19px;line-height:30px;">The family of NFT punks is growing. The punks are back and this time in the form of an adorable dogs originally drawn in 32x32 pixels, enlarged and enhanced with a polaroid frame which makes them cuter and funnier.<br><br>The collection is composed by 10,000 NFTs inspired by the popular Crypto Punks.<br><br> With new traits, a total of 140+ different attributes make up the collection.<br><br> DogeInu Punks is a randomness minting. Everyone has an equal chance to mint a valuable DogeInu Punk.<br><br>Come on and join the DogeInu Punks family.<br><br>The project is totally original and has no affiliation with Larva Labs.<br></span></div>
-<div id="wb_PhotoCollage" style="position:absolute;left:497px;top:421px;width:336px;height:336px;z-index:66;">
+<div id="wb_PhotoCollage" style="position:absolute;left:497px;top:421px;width:336px;height:336px;z-index:68;">
 <div id="PhotoCollage">
    <div class="thumbnails">
       <div class="thumbnail">
@@ -3839,16 +3936,16 @@ $(document).ready(function()
       </div>
    </div>
 </div></div>
-<div id="Logo" style="position:absolute;text-align:left;visibility:hidden;left:8px;top:6px;width:304px;height:56px;z-index:67;">
+<div id="Logo" style="position:absolute;text-align:left;visibility:hidden;left:8px;top:6px;width:304px;height:56px;z-index:69;">
 <div id="wb_Home" style="position:absolute;left:11px;top:8px;width:17px;height:26px;z-index:11;">
 <div id="Home" style="visibility:hidden;"></div>
 </div>
 <div id="wb_Logo320" style="position:absolute;left:24px;top:8px;width:255px;height:48px;visibility:hidden;z-index:12;">
 <img src="images/Logo255.webp" id="Logo320" alt="" width="255" height="48"></div>
 </div>
-<div id="wb_Shape11" style="position:absolute;left:115px;top:3840px;width:646px;height:10px;visibility:hidden;z-index:68;">
+<div id="wb_Shape11" style="position:absolute;left:115px;top:3840px;width:646px;height:10px;visibility:hidden;z-index:70;">
 <img src="images/img0003.png" id="Shape11" alt="" width="646" height="10" style="width:646px;height:10px;"></div>
-<div id="wb_CssMenu" style="position:absolute;left:0px;top:82px;width:675px;height:64px;z-index:69;">
+<div id="wb_CssMenu" style="position:absolute;left:0px;top:82px;width:675px;height:64px;z-index:71;">
 <ul id="CssMenu" role="menubar" class="nav">
 <li role="menuitem" class="nav-item firstmain"><a class="nav-link" href="#Home" target="_self" title="Home"><i class="fa fa-home">&nbsp;</i>Home</a>
 </li>
@@ -3864,23 +3961,22 @@ $(document).ready(function()
 </li>
 </ul>
 </div>
-<a href="https://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb17.png" alt="WYSIWYG Web Builder" style="position:absolute;left:95px;top:915px;margin: 0;border-width:0;z-index:250" width="16" height="16"></a>
-<div id="wb_About" style="position:absolute;left:47px;top:218px;width:29px;height:32px;z-index:71;">
+<div id="wb_About" style="position:absolute;left:47px;top:218px;width:29px;height:32px;z-index:73;">
 <div id="About" style="visibility:hidden;"></div>
 </div>
-<div id="wb_Roadmap" style="position:absolute;left:47px;top:1167px;width:17px;height:17px;z-index:72;">
+<div id="wb_Roadmap" style="position:absolute;left:47px;top:1167px;width:17px;height:17px;z-index:74;">
 <div id="Roadmap" style="visibility:hidden;"></div>
 </div>
-<div id="wb_Faq" style="position:absolute;left:47px;top:2804px;width:17px;height:17px;z-index:73;">
+<div id="wb_Faq" style="position:absolute;left:47px;top:2787px;width:17px;height:17px;z-index:75;">
 <div id="Faq" style="visibility:hidden;"></div>
 </div>
-<div id="wb_Mint" style="position:absolute;left:451px;top:3551px;width:20px;height:20px;z-index:74;">
+<div id="wb_Mint" style="position:absolute;left:451px;top:3551px;width:20px;height:20px;z-index:76;">
 <div id="Mint" style="visibility:hidden;"></div>
 </div>
-<div id="wb_Gallery" style="position:absolute;left:47px;top:3701px;width:17px;height:22px;z-index:75;">
+<div id="wb_Gallery" style="position:absolute;left:47px;top:3701px;width:17px;height:22px;z-index:77;">
 <div id="Gallery" style="visibility:hidden;"></div>
 </div>
-<div id="wb_SlideShow320" style="position:absolute;left:8px;top:3964px;width:223px;height:239px;visibility:hidden;z-index:76;">
+<div id="wb_SlideShow320" style="position:absolute;left:8px;top:3964px;width:223px;height:239px;visibility:hidden;z-index:78;">
 <div id="SlideShow320" class="carousel slide">
 <div class="carousel-inner">
 <div class="carousel-item active">
@@ -4026,14 +4122,14 @@ $(document).ready(function()
 </div>
 </div>
 </div>
-<div id="wb_GalleryShape1" style="position:absolute;left:0px;top:374px;width:704px;height:10px;visibility:hidden;z-index:77;">
+<div id="wb_GalleryShape1" style="position:absolute;left:0px;top:374px;width:704px;height:10px;visibility:hidden;z-index:79;">
 <img src="images/img0025.png" id="GalleryShape1" alt="" width="704" height="10" style="width:704px;height:10px;"></div>
 </div>
-<div id="FooterLayer" style="position:absolute;text-align:center;left:0px;top:4203px;width:99.1744%;height:26px;z-index:78;">
+<div id="FooterLayer" style="position:absolute;text-align:center;left:0px;top:4203px;width:99.1744%;height:26px;z-index:80;">
 <div id="FooterLayer_Container" style="width:961px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 </div>
 </div>
-<div id="Footer" style="position:absolute;text-align:center;left:0px;top:4229px;width:99.1744%;height:100px;z-index:79;">
+<div id="Footer" style="position:absolute;text-align:center;left:0px;top:4229px;width:99.1744%;height:100px;z-index:81;">
 <div id="Footer_Container" style="width:961px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 <div id="wb_FooterText" style="position:absolute;left:95px;top:42px;width:780px;height:16px;text-align:center;z-index:2;">
 <span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;">Copyright © DogeInu Punks&nbsp; ·&nbsp; All Rights reserved </span></div>
