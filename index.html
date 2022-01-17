@@ -69,6 +69,16 @@ input:focus, textarea:focus, select:focus
 <style>
 @font-face
 {
+   font-family: "Captain Icon";
+   font-display: swap;
+   src: url('fonts/captainicon.woff2') format('woff2'),
+        url('fonts/captainicon.woff') format('woff'),
+        url('fonts/captainicon.ttf') format('truetype'),
+        url('fonts/captainicon.svg#captainicon') format('svg'),
+        url('fonts/captainicon.eot') format('embedded-opentype');
+}
+@font-face
+{
    font-family: "Pixellari";
    font-display: swap;
    src: url('fonts/Pixellari.woff2') format('woff2'),
@@ -128,6 +138,61 @@ input:focus, textarea:focus, select:focus
 @media only screen and (max-width: 767px)
 {
 }
+#GalleryShape3
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#GalleryShape3
+{
+   filter: drop-shadow(0px 0px 5px rgba(68,114,196,0.20));
+}
+#GalleryShape2
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#GalleryShape2
+{
+   filter: drop-shadow(0px 0px 5px rgba(68,114,196,0.20));
+}
+#GalleryShape1
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#GalleryShape1
+{
+   filter: drop-shadow(0px 0px 5px rgba(68,114,196,0.20));
+}
+#RoadmapPhaseShape
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#ShapeP1
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#ShapeP1
+{
+   filter: drop-shadow(0px 0px 5px rgba(68,114,196,0.20));
+}
+#wb_TitleP1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_TitleP1 div
+{
+   text-align: left;
+}
 #wb_About3 
 {
    background-color: transparent;
@@ -156,29 +221,6 @@ input:focus, textarea:focus, select:focus
 {
    text-align: left;
 }
-#ShapeP1
-{
-   border-width: 0;
-   vertical-align: top;
-}
-#ShapeP1
-{
-   filter: drop-shadow(0px 0px 5px rgba(68,114,196,0.20));
-}
-#wb_TitleP1 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_TitleP1 div
-{
-   text-align: left;
-}
 #AboutShape1
 {
    border-width: 0;
@@ -242,28 +284,10 @@ input:focus, textarea:focus, select:focus
 {
    filter: drop-shadow(0px 0px 5px rgba(68,114,196,0.20));
 }
-#MapShape768
+#RoadmapShape768
 {
    border-width: 0;
    vertical-align: top;
-}
-#GalleryShape3
-{
-   border-width: 0;
-   vertical-align: top;
-}
-#GalleryShape3
-{
-   filter: drop-shadow(0px 0px 5px rgba(68,114,196,0.20));
-}
-#GalleryShape2
-{
-   border-width: 0;
-   vertical-align: top;
-}
-#GalleryShape2
-{
-   filter: drop-shadow(0px 0px 5px rgba(68,114,196,0.20));
 }
 #LogoLayer
 {
@@ -291,11 +315,6 @@ input:focus, textarea:focus, select:focus
    border-width: 0;
    vertical-align: top;
 }
-#RoadmapPhaseShape
-{
-   border-width: 0;
-   vertical-align: top;
-}
 #wb_TextP1 
 {
    background-color: #0563C1;
@@ -313,7 +332,7 @@ input:focus, textarea:focus, select:focus
 }
 #wb_TextP1:hover
 {
-   background: #00C024;
+   background: #2da24e;
    -webkit-transition: background 500ms linear 0ms;
    transition: background 500ms linear 0ms;
 }
@@ -623,9 +642,9 @@ input:focus, textarea:focus, select:focus
 }
 #wb_RoadmapIcon1:hover
 {
-   background-color: #00C024;
+   background-color: #2da24e;
    background-image: none;
-   border: 10px solid #00C024;
+   border: 10px solid #2da24e;
 }
 #RoadmapIcon1
 {
@@ -1436,15 +1455,6 @@ input:focus, textarea:focus, select:focus
 {
    text-align: center;
 }
-#GalleryShape1
-{
-   border-width: 0;
-   vertical-align: top;
-}
-#GalleryShape1
-{
-   filter: drop-shadow(0px 0px 5px rgba(68,114,196,0.20));
-}
 #wb_Question3 
 {
    background-color: transparent;
@@ -1487,6 +1497,358 @@ input:focus, textarea:focus, select:focus
 {
    text-align: left;
 }
+#wb_TwitterIcon
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#TwitterIcon
+{
+   height: 31px;
+   width: 35px;
+}
+.TwitterIcon
+{
+   position: relative;
+   left: 0;
+   top: 0;
+   display: inline-block;
+   font-family: "Captain Icon";
+   font-style: normal;
+   font-weight: normal;
+   line-height: 1;
+}
+.TwitterIcon:before
+{
+   content: "\e774";
+}
+#TwitterIcon i
+{
+   color: #000000;
+   display: inline-block;
+   font-size: 31px;
+   line-height: 31px;
+   vertical-align: middle;
+   width: 44px;
+}
+#TwitterIcon:hover i
+{
+   color: #FFFFFF;
+}
+#wb_DiscordIcon
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#DiscordIcon
+{
+   height: 31px;
+   width: 35px;
+}
+.DiscordIcon
+{
+   position: relative;
+   left: 0;
+   top: 0;
+   display: inline-block;
+   font-family: "Captain Icon";
+   font-style: normal;
+   font-weight: normal;
+   line-height: 1;
+}
+.DiscordIcon:before
+{
+   content: "\e776";
+}
+#DiscordIcon i
+{
+   color: #000000;
+   display: inline-block;
+   font-size: 31px;
+   line-height: 31px;
+   vertical-align: middle;
+   width: 30px;
+}
+#DiscordIcon:hover i
+{
+   color: #FFFFFF;
+}
+#wb_ContractIcon
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#ContractIcon
+{
+   height: 31px;
+   width: 35px;
+}
+.ContractIcon
+{
+   position: relative;
+   left: 0;
+   top: 0;
+   display: inline-block;
+   font-family: "Captain Icon";
+   font-style: normal;
+   font-weight: normal;
+   line-height: 1;
+}
+.ContractIcon:before
+{
+   content: "\e773";
+}
+#ContractIcon i
+{
+   color: #000000;
+   display: inline-block;
+   font-size: 31px;
+   line-height: 31px;
+   vertical-align: middle;
+   width: 39px;
+}
+#ContractIcon:hover i
+{
+   color: #FFFFFF;
+}
+#wb_OpenseaIcon
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#OpenseaIcon
+{
+   height: 31px;
+   width: 35px;
+}
+.OpenseaIcon
+{
+   position: relative;
+   left: 0;
+   top: 0;
+   display: inline-block;
+   font-family: "Captain Icon";
+   font-style: normal;
+   font-weight: normal;
+   line-height: 1;
+}
+.OpenseaIcon:before
+{
+   content: "\e775";
+}
+#OpenseaIcon i
+{
+   color: #000000;
+   display: inline-block;
+   font-size: 31px;
+   line-height: 31px;
+   vertical-align: middle;
+   width: 30px;
+}
+#OpenseaIcon:hover i
+{
+   color: #FFFFFF;
+}
+#wb_twitter320
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#twitter320
+{
+   height: 31px;
+   width: 35px;
+}
+.twitter320
+{
+   position: relative;
+   left: 0;
+   top: 0;
+   display: inline-block;
+   font-family: "Captain Icon";
+   font-style: normal;
+   font-weight: normal;
+   line-height: 1;
+}
+.twitter320:before
+{
+   content: "\e774";
+}
+#twitter320 i
+{
+   color: #000000;
+   display: inline-block;
+   font-size: 31px;
+   line-height: 31px;
+   vertical-align: middle;
+   width: 44px;
+}
+#twitter320:hover i
+{
+   color: #FFFFFF;
+}
+#wb_Opensea320
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#Opensea320
+{
+   height: 31px;
+   width: 35px;
+}
+.Opensea320
+{
+   position: relative;
+   left: 0;
+   top: 0;
+   display: inline-block;
+   font-family: "Captain Icon";
+   font-style: normal;
+   font-weight: normal;
+   line-height: 1;
+}
+.Opensea320:before
+{
+   content: "\e775";
+}
+#Opensea320 i
+{
+   color: #000000;
+   display: inline-block;
+   font-size: 31px;
+   line-height: 31px;
+   vertical-align: middle;
+   width: 30px;
+}
+#Opensea320:hover i
+{
+   color: #FFFFFF;
+}
+#wb_Discord320
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#Discord320
+{
+   height: 31px;
+   width: 35px;
+}
+.Discord320
+{
+   position: relative;
+   left: 0;
+   top: 0;
+   display: inline-block;
+   font-family: "Captain Icon";
+   font-style: normal;
+   font-weight: normal;
+   line-height: 1;
+}
+.Discord320:before
+{
+   content: "\e776";
+}
+#Discord320 i
+{
+   color: #000000;
+   display: inline-block;
+   font-size: 31px;
+   line-height: 31px;
+   vertical-align: middle;
+   width: 30px;
+}
+#Discord320:hover i
+{
+   color: #FFFFFF;
+}
+#wb_Contract320
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+}
+#Contract320
+{
+   height: 31px;
+   width: 35px;
+}
+.Contract320
+{
+   position: relative;
+   left: 0;
+   top: 0;
+   display: inline-block;
+   font-family: "Captain Icon";
+   font-style: normal;
+   font-weight: normal;
+   line-height: 1;
+}
+.Contract320:before
+{
+   content: "\e773";
+}
+#Contract320 i
+{
+   color: #000000;
+   display: inline-block;
+   font-size: 31px;
+   line-height: 31px;
+   vertical-align: middle;
+   width: 39px;
+}
+#Contract320:hover i
+{
+   color: #FFFFFF;
+}
 @media only screen and (min-width: 768px) and (max-width: 968px)
 {
 div#container
@@ -1497,6 +1859,60 @@ body
 {
    background-color: #000000;
    background-image: none;
+}
+#wb_GalleryShape3
+{
+   left: 38px !important;
+   top: 328px !important;
+   visibility: hidden !important;
+   display: none !important;
+   margin: 0;
+}
+#wb_GalleryShape2
+{
+   left: 38px !important;
+   top: 328px !important;
+   visibility: hidden !important;
+   display: none !important;
+   margin: 0;
+}
+#wb_GalleryShape1
+{
+   left: 38px !important;
+   top: 3874px !important;
+   visibility: visible !important;
+   display: inline !important;
+   margin: 0;
+}
+#wb_RoadmapPhaseShape
+{
+   left: 38px !important;
+   top: 1369px !important;
+   visibility: hidden !important;
+   display: none !important;
+   margin: 0;
+}
+#wb_ShapeP1
+{
+   left: 136px !important;
+   top: 1426px !important;
+   visibility: visible !important;
+   display: inline !important;
+   margin: 0;
+}
+#wb_TitleP1
+{
+   left: 136px !important;
+   top: 1410px !important;
+   width: 103px !important;
+   height: 16px !important;
+   visibility: visible !important;
+   display: inline !important;
+}
+#wb_TitleP1
+{
+   margin: 0;
+   padding: 0;
 }
 #wb_About3
 {
@@ -1522,28 +1938,6 @@ body
    display: none !important;
 }
 #wb_About2
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_ShapeP1
-{
-   left: 136px !important;
-   top: 1426px !important;
-   visibility: visible !important;
-   display: inline !important;
-   margin: 0;
-}
-#wb_TitleP1
-{
-   left: 136px !important;
-   top: 1410px !important;
-   width: 103px !important;
-   height: 16px !important;
-   visibility: visible !important;
-   display: inline !important;
-}
-#wb_TitleP1
 {
    margin: 0;
    padding: 0;
@@ -1604,28 +1998,12 @@ body
    display: none !important;
    margin: 0;
 }
-#wb_MapShape768
+#wb_RoadmapShape768
 {
    left: 38px !important;
    top: 1376px !important;
    visibility: visible !important;
    display: inline !important;
-   margin: 0;
-}
-#wb_GalleryShape3
-{
-   left: 38px !important;
-   top: 328px !important;
-   visibility: hidden !important;
-   display: none !important;
-   margin: 0;
-}
-#wb_GalleryShape2
-{
-   left: 38px !important;
-   top: 328px !important;
-   visibility: hidden !important;
-   display: none !important;
    margin: 0;
 }
 #wb_Home
@@ -1666,16 +2044,8 @@ body
 }
 #wb_RoadmapTextShape
 {
-   left: 1042px !important;
-   top: 455px !important;
-   visibility: hidden !important;
-   display: none !important;
-   margin: 0;
-}
-#wb_RoadmapPhaseShape
-{
-   left: 38px !important;
-   top: 1369px !important;
+   left: 202px !important;
+   top: 279px !important;
    visibility: hidden !important;
    display: none !important;
    margin: 0;
@@ -1770,10 +2140,10 @@ body
 }
 #wb_FaqText5
 {
-   left: 16px !important;
-   top: 4079px !important;
+   left: 31px !important;
+   top: 3938px !important;
    width: 274px !important;
-   height: 531px !important;
+   height: 547px !important;
    visibility: hidden !important;
    display: none !important;
    background-color: transparent;
@@ -1788,8 +2158,8 @@ body
 }
 #wb_FaqText6
 {
-   left: 17px !important;
-   top: 4620px !important;
+   left: 19px !important;
+   top: 4111px !important;
    width: 274px !important;
    height: 390px !important;
    visibility: hidden !important;
@@ -2239,7 +2609,7 @@ body
    left: 38px !important;
    top: 379px !important;
    width: 329px !important;
-   height: 734px !important;
+   height: 764px !important;
    visibility: visible !important;
    display: inline !important;
 }
@@ -2352,7 +2722,7 @@ body
 #wb_Question2
 {
    left: 30px !important;
-   top: 6px !important;
+   top: 2px !important;
    width: 250px !important;
    height: 16px !important;
    visibility: visible !important;
@@ -2366,7 +2736,7 @@ body
 #wb_Question4
 {
    left: 28px !important;
-   top: 7px !important;
+   top: -1px !important;
    width: 251px !important;
    height: 16px !important;
    visibility: visible !important;
@@ -2380,7 +2750,7 @@ body
 #wb_Question1
 {
    left: 30px !important;
-   top: 4px !important;
+   top: 2px !important;
    width: 249px !important;
    height: 16px !important;
    visibility: visible !important;
@@ -2394,7 +2764,7 @@ body
 #wb_Question5
 {
    left: 28px !important;
-   top: 8px !important;
+   top: -2px !important;
    width: 510px !important;
    height: 256px !important;
    visibility: visible !important;
@@ -2408,7 +2778,7 @@ body
 #wb_Question6
 {
    left: 30px !important;
-   top: 20px !important;
+   top: 8px !important;
    width: 485px !important;
    height: 144px !important;
    visibility: visible !important;
@@ -2473,6 +2843,13 @@ body
    visibility: hidden !important;
    display: none !important;
 }
+#SlideShow320_back
+{
+   left: 10px !important;
+}
+#SlideShow320_next
+{
+}
 #wb_FooterText
 {
    left: 2px !important;
@@ -2487,18 +2864,10 @@ body
    margin: 0;
    padding: 0;
 }
-#wb_GalleryShape1
-{
-   left: 38px !important;
-   top: 3874px !important;
-   visibility: visible !important;
-   display: inline !important;
-   margin: 0;
-}
 #wb_Question3
 {
    left: 30px !important;
-   top: 5px !important;
+   top: -1px !important;
    width: 307px !important;
    height: 16px !important;
    visibility: visible !important;
@@ -2512,7 +2881,7 @@ body
 #wb_Text1
 {
    left: 30px !important;
-   top: 6px !important;
+   top: 2px !important;
    width: 250px !important;
    height: 16px !important;
    visibility: visible !important;
@@ -2526,7 +2895,7 @@ body
 #wb_Text2
 {
    left: 29px !important;
-   top: 5px !important;
+   top: -3px !important;
    width: 251px !important;
    height: 16px !important;
    visibility: visible !important;
@@ -2536,6 +2905,206 @@ body
 {
    margin: 0;
    padding: 0;
+}
+#wb_TwitterIcon
+{
+   left: 470px !important;
+   top: 28px !important;
+   width: 42px !important;
+   height: 31px !important;
+   visibility: visible !important;
+   display: inline !important;
+   margin: 0;
+   padding: 0;
+}
+#TwitterIcon
+{
+   width: 42px;
+   height: 31px;
+}
+#TwitterIcon i
+{
+   line-height: 31px;
+   font-size: 31px;
+   width: 44px;
+}
+#wb_DiscordIcon
+{
+   left: 544px !important;
+   top: 28px !important;
+   width: 42px !important;
+   height: 31px !important;
+   visibility: visible !important;
+   display: inline !important;
+   margin: 0;
+   padding: 0;
+}
+#DiscordIcon
+{
+   width: 42px;
+   height: 31px;
+}
+#DiscordIcon i
+{
+   line-height: 31px;
+   font-size: 31px;
+   width: 30px;
+}
+#wb_ContractIcon
+{
+   left: 586px !important;
+   top: 28px !important;
+   width: 46px !important;
+   height: 31px !important;
+   visibility: visible !important;
+   display: inline !important;
+   margin: 0;
+   padding: 0;
+}
+#ContractIcon
+{
+   width: 46px;
+   height: 31px;
+}
+#ContractIcon i
+{
+   line-height: 31px;
+   font-size: 31px;
+   width: 39px;
+}
+#wb_OpenseaIcon
+{
+   left: 505px !important;
+   top: 28px !important;
+   width: 39px !important;
+   height: 31px !important;
+   visibility: visible !important;
+   display: inline !important;
+   margin: 0;
+   padding: 0;
+}
+#OpenseaIcon
+{
+   width: 39px;
+   height: 31px;
+}
+#OpenseaIcon i
+{
+   line-height: 31px;
+   font-size: 31px;
+   width: 30px;
+}
+#wb_twitter320
+{
+   left: 482px !important;
+   top: 28px !important;
+   width: 23px !important;
+   height: 21px !important;
+   visibility: hidden !important;
+   display: none !important;
+   margin: 0;
+   padding: 0;
+   color: #000000;
+}
+#twitter320
+{
+   width: 23px;
+   height: 21px;
+}
+#twitter320 i
+{
+   line-height: 21px;
+   font-size: 21px;
+   width: 29px;
+   color: #000000;
+}
+#twitter320:hover i
+{
+   color: #FFFFFF;
+}
+#wb_Opensea320
+{
+   left: 505px !important;
+   top: 28px !important;
+   width: 25px !important;
+   height: 21px !important;
+   visibility: hidden !important;
+   display: none !important;
+   margin: 0;
+   padding: 0;
+   color: #000000;
+}
+#Opensea320
+{
+   width: 25px;
+   height: 21px;
+}
+#Opensea320 i
+{
+   line-height: 21px;
+   font-size: 21px;
+   width: 20px;
+   color: #000000;
+}
+#Opensea320:hover i
+{
+   color: #FFFFFF;
+}
+#wb_Discord320
+{
+   left: 530px !important;
+   top: 28px !important;
+   width: 25px !important;
+   height: 21px !important;
+   visibility: hidden !important;
+   display: none !important;
+   margin: 0;
+   padding: 0;
+   color: #000000;
+}
+#Discord320
+{
+   width: 25px;
+   height: 21px;
+}
+#Discord320 i
+{
+   line-height: 21px;
+   font-size: 21px;
+   width: 20px;
+   color: #000000;
+}
+#Discord320:hover i
+{
+   color: #FFFFFF;
+}
+#wb_Contract320
+{
+   left: 555px !important;
+   top: 28px !important;
+   width: 31px !important;
+   height: 21px !important;
+   visibility: hidden !important;
+   display: none !important;
+   margin: 0;
+   padding: 0;
+   color: #000000;
+}
+#Contract320
+{
+   width: 31px;
+   height: 21px;
+}
+#Contract320 i
+{
+   line-height: 21px;
+   font-size: 21px;
+   width: 26px;
+   color: #000000;
+}
+#Contract320:hover i
+{
+   color: #FFFFFF;
 }
 }
 @media only screen and (max-width: 767px)
@@ -2548,6 +3117,60 @@ body
 {
    background-color: #000000;
    background-image: none;
+}
+#wb_GalleryShape3
+{
+   left: 264px !important;
+   top: 170px !important;
+   visibility: hidden !important;
+   display: none !important;
+   margin: 0;
+}
+#wb_GalleryShape2
+{
+   left: 264px !important;
+   top: 170px !important;
+   visibility: hidden !important;
+   display: none !important;
+   margin: 0;
+}
+#wb_GalleryShape1
+{
+   left: 264px !important;
+   top: 170px !important;
+   visibility: hidden !important;
+   display: none !important;
+   margin: 0;
+}
+#wb_RoadmapPhaseShape
+{
+   left: 0px !important;
+   top: 419px !important;
+   visibility: hidden !important;
+   display: none !important;
+   margin: 0;
+}
+#wb_ShapeP1
+{
+   left: 264px !important;
+   top: 170px !important;
+   visibility: hidden !important;
+   display: none !important;
+   margin: 0;
+}
+#wb_TitleP1
+{
+   left: 107px !important;
+   top: 1396px !important;
+   width: 99px !important;
+   height: 16px !important;
+   visibility: visible !important;
+   display: inline !important;
+}
+#wb_TitleP1
+{
+   margin: 0;
+   padding: 0;
 }
 #wb_About3
 {
@@ -2573,28 +3196,6 @@ body
    display: none !important;
 }
 #wb_About2
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_ShapeP1
-{
-   left: 264px !important;
-   top: 170px !important;
-   visibility: hidden !important;
-   display: none !important;
-   margin: 0;
-}
-#wb_TitleP1
-{
-   left: 107px !important;
-   top: 1396px !important;
-   width: 99px !important;
-   height: 16px !important;
-   visibility: visible !important;
-   display: inline !important;
-}
-#wb_TitleP1
 {
    margin: 0;
    padding: 0;
@@ -2655,26 +3256,10 @@ body
    display: none !important;
    margin: 0;
 }
-#wb_MapShape768
+#wb_RoadmapShape768
 {
-   left: 265px !important;
-   top: 428px !important;
-   visibility: hidden !important;
-   display: none !important;
-   margin: 0;
-}
-#wb_GalleryShape3
-{
-   left: 264px !important;
-   top: 170px !important;
-   visibility: hidden !important;
-   display: none !important;
-   margin: 0;
-}
-#wb_GalleryShape2
-{
-   left: 264px !important;
-   top: 170px !important;
+   left: 0px !important;
+   top: 419px !important;
    visibility: hidden !important;
    display: none !important;
    margin: 0;
@@ -2719,14 +3304,6 @@ body
 {
    left: 6px !important;
    top: 1337px !important;
-   visibility: hidden !important;
-   display: none !important;
-   margin: 0;
-}
-#wb_RoadmapPhaseShape
-{
-   left: 265px !important;
-   top: 428px !important;
    visibility: hidden !important;
    display: none !important;
    margin: 0;
@@ -3408,7 +3985,7 @@ body
 #wb_Question2
 {
    left: 10px !important;
-   top: -68px !important;
+   top: -72px !important;
    width: 250px !important;
    height: 16px !important;
    visibility: hidden !important;
@@ -3422,7 +3999,7 @@ body
 #wb_Question4
 {
    left: 10px !important;
-   top: -146px !important;
+   top: -154px !important;
    width: 251px !important;
    height: 16px !important;
    visibility: hidden !important;
@@ -3436,7 +4013,7 @@ body
 #wb_Question1
 {
    left: 10px !important;
-   top: -29px !important;
+   top: -31px !important;
    width: 249px !important;
    height: 16px !important;
    visibility: hidden !important;
@@ -3450,7 +4027,7 @@ body
 #wb_Question5
 {
    left: 10px !important;
-   top: -185px !important;
+   top: -195px !important;
    width: 510px !important;
    height: 256px !important;
    visibility: hidden !important;
@@ -3464,7 +4041,7 @@ body
 #wb_Question6
 {
    left: 10px !important;
-   top: -224px !important;
+   top: -236px !important;
    width: 485px !important;
    height: 144px !important;
    visibility: hidden !important;
@@ -3513,8 +4090,8 @@ body
 }
 #wb_Gallery
 {
-   left: 10px !important;
-   top: 5224px !important;
+   left: 23px !important;
+   top: 4967px !important;
    width: 17px !important;
    height: 22px !important;
    visibility: hidden !important;
@@ -3522,12 +4099,19 @@ body
 }
 #wb_SlideShow320
 {
-   left: 16px !important;
-   top: 4698px !important;
+   left: 46px !important;
+   top: 4697px !important;
    width: 217px !important;
    height: 246px !important;
    visibility: visible !important;
    display: inline-block !important;
+}
+#SlideShow320_back
+{
+   left: 10px !important;
+}
+#SlideShow320_next
+{
 }
 #wb_SlideShow320 .thumbnail
 {
@@ -3550,18 +4134,10 @@ body
    margin: 0;
    padding: 0;
 }
-#wb_GalleryShape1
-{
-   left: 264px !important;
-   top: 170px !important;
-   visibility: hidden !important;
-   display: none !important;
-   margin: 0;
-}
 #wb_Question3
 {
    left: 10px !important;
-   top: -107px !important;
+   top: -113px !important;
    width: 307px !important;
    height: 16px !important;
    visibility: hidden !important;
@@ -3575,7 +4151,7 @@ body
 #wb_Text1
 {
    left: 10px !important;
-   top: -68px !important;
+   top: -72px !important;
    width: 250px !important;
    height: 16px !important;
    visibility: hidden !important;
@@ -3589,7 +4165,7 @@ body
 #wb_Text2
 {
    left: 10px !important;
-   top: -146px !important;
+   top: -154px !important;
    width: 251px !important;
    height: 16px !important;
    visibility: hidden !important;
@@ -3599,6 +4175,206 @@ body
 {
    margin: 0;
    padding: 0;
+}
+#wb_TwitterIcon
+{
+   left: 10px !important;
+   top: 10px !important;
+   width: 25px !important;
+   height: 21px !important;
+   visibility: hidden !important;
+   display: none !important;
+   margin: 0;
+   padding: 0;
+}
+#TwitterIcon
+{
+   width: 25px;
+   height: 21px;
+}
+#TwitterIcon i
+{
+   line-height: 21px;
+   font-size: 21px;
+   width: 29px;
+}
+#wb_DiscordIcon
+{
+   left: 10px !important;
+   top: 10px !important;
+   width: 25px !important;
+   height: 21px !important;
+   visibility: hidden !important;
+   display: none !important;
+   margin: 0;
+   padding: 0;
+}
+#DiscordIcon
+{
+   width: 25px;
+   height: 21px;
+}
+#DiscordIcon i
+{
+   line-height: 21px;
+   font-size: 21px;
+   width: 20px;
+}
+#wb_ContractIcon
+{
+   left: 10px !important;
+   top: 10px !important;
+   width: 25px !important;
+   height: 21px !important;
+   visibility: hidden !important;
+   display: none !important;
+   margin: 0;
+   padding: 0;
+}
+#ContractIcon
+{
+   width: 25px;
+   height: 21px;
+}
+#ContractIcon i
+{
+   line-height: 21px;
+   font-size: 21px;
+   width: 26px;
+}
+#wb_OpenseaIcon
+{
+   left: 10px !important;
+   top: 10px !important;
+   width: 25px !important;
+   height: 21px !important;
+   visibility: hidden !important;
+   display: none !important;
+   margin: 0;
+   padding: 0;
+}
+#OpenseaIcon
+{
+   width: 25px;
+   height: 21px;
+}
+#OpenseaIcon i
+{
+   line-height: 21px;
+   font-size: 21px;
+   width: 20px;
+}
+#wb_twitter320
+{
+   left: 80px !important;
+   top: 5010px !important;
+   width: 30px !important;
+   height: 31px !important;
+   visibility: visible !important;
+   display: inline !important;
+   margin: 0;
+   padding: 0;
+   color: #0563C1;
+}
+#twitter320
+{
+   width: 30px;
+   height: 31px;
+}
+#twitter320 i
+{
+   line-height: 31px;
+   font-size: 30px;
+   width: 42px;
+   color: #0563C1;
+}
+#twitter320:hover i
+{
+   color: #FFFFFF;
+}
+#wb_Opensea320
+{
+   left: 116px !important;
+   top: 5010px !important;
+   width: 35px !important;
+   height: 31px !important;
+   visibility: visible !important;
+   display: inline !important;
+   margin: 0;
+   padding: 0;
+   color: #0563C1;
+}
+#Opensea320
+{
+   width: 35px;
+   height: 31px;
+}
+#Opensea320 i
+{
+   line-height: 31px;
+   font-size: 31px;
+   width: 30px;
+   color: #0563C1;
+}
+#Opensea320:hover i
+{
+   color: #FFFFFF;
+}
+#wb_Discord320
+{
+   left: 158px !important;
+   top: 5010px !important;
+   width: 28px !important;
+   height: 31px !important;
+   visibility: visible !important;
+   display: inline !important;
+   margin: 0;
+   padding: 0;
+   color: #0563C1;
+}
+#Discord320
+{
+   width: 28px;
+   height: 31px;
+}
+#Discord320 i
+{
+   line-height: 31px;
+   font-size: 28px;
+   width: 27px;
+   color: #0563C1;
+}
+#Discord320:hover i
+{
+   color: #FFFFFF;
+}
+#wb_Contract320
+{
+   left: 193px !important;
+   top: 5010px !important;
+   width: 47px !important;
+   height: 31px !important;
+   visibility: visible !important;
+   display: inline !important;
+   margin: 0;
+   padding: 0;
+   color: #0563C1;
+}
+#Contract320
+{
+   width: 47px;
+   height: 31px;
+}
+#Contract320 i
+{
+   line-height: 31px;
+   font-size: 31px;
+   width: 39px;
+   color: #0563C1;
+}
+#Contract320:hover i
+{
+   color: #FFFFFF;
 }
 }
 </style>
@@ -3688,63 +4464,83 @@ $(document).ready(function()
    $("#SlideShow320").bootstrapcarousel({interval:3000, ride: true});
 });
 </script>
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VD5P95SK3L"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VD5P95SK3L');
+</script>
 </head>
 <body>
-<div id="LogoLayer" style="position:absolute;text-align:center;left:0px;top:0px;width:99.1744%;height:82px;z-index:13;">
-<div id="LogoLayer_Container" style="width:961px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<div id="LogoLayer" style="position:absolute;text-align:center;left:0px;top:0px;width:100%;height:82px;z-index:17;">
+<div id="LogoLayer_Container" style="width:969px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 <div id="wb_LogoImage" style="position:absolute;left:8px;top:14px;width:536px;height:56px;z-index:0;">
 <img src="images/LogoDerWeb.webp" id="LogoImage" alt="" width="536" height="65"></div>
 
+<div id="wb_TwitterIcon" style="position:absolute;left:588px;top:32px;width:35px;height:31px;text-align:center;z-index:2;">
+<a href="https://twitter.com/PunksInu" rel="noreferrer" target="_blank" title="Twitter"><div id="TwitterIcon"><i class="TwitterIcon"></i></div></a></div>
+<div id="wb_ContractIcon" style="position:absolute;left:694px;top:32px;width:35px;height:31px;text-align:center;z-index:3;">
+<a href="https://etherscan.io/address/0xea32a7c808e70a5017d8613cce63ed4a6cde8f54" rel="noreferrer" target="_blank" title="Contract"><div id="ContractIcon"><i class="ContractIcon"></i></div></a></div>
+<div id="wb_DiscordIcon" style="position:absolute;left:655px;top:32px;width:35px;height:31px;text-align:center;z-index:4;">
+<a href="https://discord.com/" rel="noreferrer" target="_blank" title="Coming soon"><div id="DiscordIcon"><i class="DiscordIcon"></i></div></a></div>
+<div id="wb_OpenseaIcon" style="position:absolute;left:620px;top:32px;width:35px;height:31px;text-align:center;z-index:5;">
+<a href="https://opensea.io/collection/dogeinupunks" rel="noreferrer" target="_blank" title="Opensea"><div id="OpenseaIcon"><i class="OpenseaIcon"></i></div></a></div>
 </div>
 </div>
 <div id="container">
-<div id="wb_About3" style="position:absolute;left:46px;top:784px;width:786px;height:253px;z-index:14;">
-<span style="color:#FFFFFF;font-family:Pixellari;font-size:21px;line-height:30px;">With new traits, a total of 140+ different attributes make up the collection.<br><br> DogeInu Punks is a randomness minting. Everyone has an equal chance to mint a valuable DogeInu Punk.<br><br>Come on and join the DogeInu Punks family.<br><br>The project is totally original and has no affiliation with Larva Labs.<br></span></div>
-<div id="wb_About2" style="position:absolute;left:46px;top:421px;width:370px;height:312px;z-index:15;">
-<span style="color:#000000;font-family:Arial;font-size:13px;line-height:30px;"> </span><span style="color:#FFFFFF;font-family:Pixellari;font-size:21px;line-height:30px;">The family of NFT punks is growing. The punks are back and this time in the form of an adorable dogs originally drawn in 32x32 pixels, enlarged and enhanced with a polaroid frame which makes them cuter and funnier.<br><br>The collection is composed by 10,000 NFTs inspired by the popular Crypto Punks.<br></span></div>
-<div id="wb_ShapeP1" style="position:absolute;left:198px;top:1376px;width:200px;height:8px;z-index:16;">
-<img src="images/img0007.png" id="ShapeP1" alt="" width="200" height="8" style="width:200px;height:8px;"></div>
-<div id="wb_TitleP1" style="position:absolute;left:198px;top:1360px;width:105px;height:16px;z-index:17;">
-<span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;">FIRST PHASE</span></div>
-<div id="wb_AboutShape1" style="position:absolute;left:0px;top:374px;width:704px;height:10px;visibility:hidden;z-index:18;">
-<img src="images/img0002.png" id="AboutShape1" alt="" width="704" height="10" style="width:704px;height:10px;"></div>
-<div id="wb_AboutShape3" style="position:absolute;left:130px;top:349px;width:821px;height:10px;z-index:19;">
-<img src="images/img0017.png" id="AboutShape3" alt="" width="821" height="10" style="width:821px;height:10px;"></div>
-<div id="wb_AboutShape2" style="position:absolute;left:46px;top:332px;width:904px;height:10px;z-index:20;">
-<img src="images/img0005.png" id="AboutShape2" alt="" width="904" height="10" style="width:904px;height:10px;"></div>
-<div id="wb_RoadmapShape3" style="position:absolute;left:166px;top:1274px;width:785px;height:10px;z-index:21;">
-<img src="images/img0019.png" id="RoadmapShape3" alt="" width="785" height="10" style="width:785px;height:10px;"></div>
-<div id="wb_RoadmapShape2" style="position:absolute;left:46px;top:1257px;width:904px;height:10px;z-index:22;">
-<img src="images/img0018.png" id="RoadmapShape2" alt="" width="904" height="10" style="width:904px;height:10px;"></div>
-<div id="wb_FaqShape3" style="position:absolute;left:106px;top:2893px;width:845px;height:10px;z-index:23;">
-<img src="images/img0021.png" id="FaqShape3" alt="" width="845" height="10" style="width:845px;height:10px;"></div>
-<div id="wb_FaqShape2" style="position:absolute;left:46px;top:2876px;width:904px;height:10px;z-index:24;">
-<img src="images/img0020.png" id="FaqShape2" alt="" width="904" height="10" style="width:904px;height:10px;"></div>
-<div id="wb_MapShape768" style="position:absolute;left:38px;top:1376px;width:704px;height:1414px;visibility:hidden;z-index:25;">
-<img src="images/img0024.png" id="MapShape768" alt="" width="704" height="1414" style="width:704px;height:1414px;"></div>
-<div id="wb_GalleryShape3" style="position:absolute;left:153px;top:3823px;width:798px;height:10px;z-index:26;">
+<div id="wb_GalleryShape3" style="position:absolute;left:153px;top:3823px;width:798px;height:10px;z-index:18;">
 <img src="images/img0023.png" id="GalleryShape3" alt="" width="798" height="10" style="width:798px;height:10px;"></div>
-<div id="wb_GalleryShape2" style="position:absolute;left:46px;top:3806px;width:904px;height:10px;z-index:27;">
+<div id="wb_GalleryShape2" style="position:absolute;left:46px;top:3806px;width:904px;height:10px;z-index:19;">
 <img src="images/img0022.png" id="GalleryShape2" alt="" width="904" height="10" style="width:904px;height:10px;"></div>
-<div id="wb_RoadmapTextShape" style="position:absolute;left:459px;top:431px;width:298px;height:1624px;visibility:hidden;z-index:28;">
-<img src="images/img0004.png" id="RoadmapTextShape" alt="" width="298" height="1624" style="width:298px;height:1624px;"></div>
-<div id="wb_RoadmapPhaseShape" style="position:absolute;left:46px;top:1330px;width:904px;height:1399px;opacity:0.50;z-index:29;">
+<div id="wb_GalleryShape1" style="position:absolute;left:0px;top:374px;width:704px;height:10px;visibility:hidden;z-index:20;">
+<img src="images/img0025.png" id="GalleryShape1" alt="" width="704" height="10" style="width:704px;height:10px;"></div>
+<div id="wb_RoadmapPhaseShape" style="position:absolute;left:46px;top:1330px;width:904px;height:1399px;opacity:0.50;z-index:21;">
 <img src="images/img0006.png" id="RoadmapPhaseShape" alt="" width="904" height="1399" style="width:904px;height:1399px;"></div>
-<div id="wb_TextP1" style="position:absolute;left:130px;top:1420px;width:734px;height:144px;z-index:30;">
-<span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;"><strong> <br>&nbsp; </strong>DogeInu Punks is live and public&nbsp; sale is launch<br><br>&nbsp; First 1000 are Free. After the price is fixed to 0.05ETH for the remaining 9000.<br><br>&nbsp; (This represents some ETHs in giveaway with 0.05ETH as the starting price)<br><br><br></span></div>
-<div id="wb_FaqText1" style="position:absolute;left:15px;top:3591px;width:277px;height:98px;visibility:hidden;z-index:31;">
-<span style="color:#FFFFFF;font-family:Pixellari;font-size:19px;"> <br>&nbsp; 1 - Public mint date</span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><br><br></span><span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;">&nbsp; Live now<br></span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><br></span></div>
-<div id="wb_FaqText2" style="position:absolute;left:16px;top:3699px;width:275px;height:117px;visibility:hidden;z-index:32;">
+<div id="wb_ShapeP1" style="position:absolute;left:198px;top:1376px;width:200px;height:8px;z-index:22;">
+<img src="images/img0007.png" id="ShapeP1" alt="" width="200" height="8" style="width:200px;height:8px;"></div>
+<div id="wb_TitleP1" style="position:absolute;left:198px;top:1360px;width:105px;height:16px;z-index:23;">
+<span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;">FIRST PHASE</span></div>
+<div id="wb_About3" style="position:absolute;left:46px;top:784px;width:786px;height:253px;z-index:24;">
+<span style="color:#FFFFFF;font-family:Pixellari;font-size:21px;line-height:30px;">With new traits, a total of 140+ different attributes make up the collection.<br><br> DogeInu Punks is a randomness minting. Everyone has an equal chance to mint a most rarer DogeInu Punk NFT.<br><br>Come on and join the DogeInu Punks family.<br><br>The project is totally original and has no affiliation with Larva Labs.<br></span></div>
+<div id="wb_About2" style="position:absolute;left:46px;top:421px;width:370px;height:312px;z-index:25;">
+<span style="color:#000000;font-family:Arial;font-size:13px;line-height:30px;"> </span><span style="color:#FFFFFF;font-family:Pixellari;font-size:21px;line-height:30px;">The family of NFT punks is growing. The punks are back and this time in the form of an adorable dogs originally drawn in 32x32 pixels, enlarged and enhanced with a polaroid frame which makes them cuter and funnier.<br><br>The collection is composed by 10,000 NFTs inspired by the popular Crypto Punks.<br></span></div>
+<div id="wb_AboutShape1" style="position:absolute;left:0px;top:374px;width:704px;height:10px;visibility:hidden;z-index:26;">
+<img src="images/img0002.png" id="AboutShape1" alt="" width="704" height="10" style="width:704px;height:10px;"></div>
+<div id="wb_AboutShape3" style="position:absolute;left:130px;top:349px;width:821px;height:10px;z-index:27;">
+<img src="images/img0017.png" id="AboutShape3" alt="" width="821" height="10" style="width:821px;height:10px;"></div>
+<div id="wb_AboutShape2" style="position:absolute;left:46px;top:332px;width:904px;height:10px;z-index:28;">
+<img src="images/img0005.png" id="AboutShape2" alt="" width="904" height="10" style="width:904px;height:10px;"></div>
+<div id="wb_RoadmapShape3" style="position:absolute;left:166px;top:1274px;width:785px;height:10px;z-index:29;">
+<img src="images/img0019.png" id="RoadmapShape3" alt="" width="785" height="10" style="width:785px;height:10px;"></div>
+<div id="wb_RoadmapShape2" style="position:absolute;left:46px;top:1257px;width:904px;height:10px;z-index:30;">
+<img src="images/img0018.png" id="RoadmapShape2" alt="" width="904" height="10" style="width:904px;height:10px;"></div>
+<div id="wb_FaqShape3" style="position:absolute;left:106px;top:2893px;width:845px;height:10px;z-index:31;">
+<img src="images/img0021.png" id="FaqShape3" alt="" width="845" height="10" style="width:845px;height:10px;"></div>
+<div id="wb_FaqShape2" style="position:absolute;left:46px;top:2876px;width:904px;height:10px;z-index:32;">
+<img src="images/img0020.png" id="FaqShape2" alt="" width="904" height="10" style="width:904px;height:10px;"></div>
+<div id="wb_RoadmapShape768" style="position:absolute;left:38px;top:1376px;width:704px;height:1414px;visibility:hidden;z-index:33;">
+<img src="images/img0024.png" id="RoadmapShape768" alt="" width="704" height="1414" style="width:704px;height:1414px;"></div>
+<div id="wb_RoadmapTextShape" style="position:absolute;left:459px;top:431px;width:298px;height:1624px;visibility:hidden;z-index:34;">
+<img src="images/img0004.png" id="RoadmapTextShape" alt="" width="298" height="1624" style="width:298px;height:1624px;"></div>
+<div id="wb_TextP1" style="position:absolute;left:130px;top:1420px;width:734px;height:144px;z-index:35;">
+<span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;"><strong> <br>&nbsp; </strong>DogeInu Punks is live and public&nbsp; sale is launch.<br><br>&nbsp; First 1000 are Free. After the price is fixed to 0.05ETH for the remaining 9000.<br><br>&nbsp; (This represents some ETHs in giveaway with 0.05ETH as the starting price)<br><br><br></span></div>
+<div id="wb_FaqText1" style="position:absolute;left:20px;top:3307px;width:277px;height:98px;visibility:hidden;z-index:36;">
+<span style="color:#FFFFFF;font-family:Pixellari;font-size:19px;"> <br>&nbsp; 1 - Public mint date</span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><br><br></span><span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;">&nbsp; Live now.<br></span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><br></span></div>
+<div id="wb_FaqText2" style="position:absolute;left:21px;top:3363px;width:275px;height:117px;visibility:hidden;z-index:37;">
 <span style="color:#FFFFFF;font-family:Pixellari;font-size:19px;"> <br>&nbsp; 2 - How much will it cost to mint each DogeInu Punk ?</span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><br><br></span><span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;">&nbsp; 0.05ETH excluding gas fees.<br></span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><br></span></div>
-<div id="wb_FaqText3" style="position:absolute;left:15px;top:3826px;width:276px;height:135px;visibility:hidden;z-index:33;">
+<div id="wb_FaqText3" style="position:absolute;left:25px;top:3398px;width:276px;height:151px;visibility:hidden;z-index:38;">
 <span style="color:#FFFFFF;font-family:Pixellari;font-size:19px;"><br>&nbsp; 3 - How many DogeInu Punks in total and can be minted in a single transaction ?</span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><br><br></span><span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;">&nbsp; Supply of 10,000 NFTs and 15 per tx.<br></span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><br></span></div>
-<div id="wb_FaqText4" style="position:absolute;left:15px;top:3971px;width:276px;height:98px;visibility:hidden;z-index:34;">
-<span style="color:#FFFFFF;font-family:Pixellari;font-size:19px;"><br>&nbsp; 4 - Blockchain</span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><br><br></span><span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;">&nbsp; Ethereum<br></span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><br></span></div>
-<div id="wb_FaqText5" style="position:absolute;left:16px;top:4079px;width:274px;height:531px;visibility:hidden;z-index:35;">
+<div id="wb_FaqText4" style="position:absolute;left:20px;top:3290px;width:276px;height:98px;visibility:hidden;z-index:39;">
+<span style="color:#FFFFFF;font-family:Pixellari;font-size:19px;"><br>&nbsp; 4 - Blockchain</span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><br><br></span><span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;">&nbsp; Ethereum.<br></span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><br></span></div>
+<div id="wb_FaqText5" style="position:absolute;left:27px;top:3027px;width:274px;height:579px;visibility:hidden;z-index:40;">
 <span style="color:#FFFFFF;font-family:Pixellari;font-size:19px;"><br>&nbsp; 5 - How to mint ?<br></span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><br></span><span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;">&nbsp; First, make sure you have enough $ETH in your wallet and that your wallet is on the correct mainnet (Ethereum's mainnet).<br><br>&nbsp; By simply clicking the Mint button, you will be redirected to the minting page and pressing &quot;connect to metamask&quot; to log into your Metamask wallet, select the amount and click the buy button. <br><br>&nbsp; If Metamask is installed correctly, a pop-up window will open and you just need to confirm the transaction. You can adjust the gas limit according to the network situation but it is not recommended to significantly lower the gas limit to avoid a transaction error.<br><br>&nbsp; After the mint is finished, you can directly view your NFT in Opensea at dogeinupunks collection and put it up for sale if you wish in the second market.<br><br><br><br><br><br><br></span></div>
-<div id="wb_FaqText6" style="position:absolute;left:17px;top:4620px;width:274px;height:390px;visibility:hidden;z-index:36;">
+<div id="wb_FaqText6" style="position:absolute;left:26px;top:2964px;width:274px;height:406px;visibility:hidden;z-index:41;">
 <span style="color:#FFFFFF;font-family:Pixellari;font-size:19px;"><br>&nbsp; 6 - What's different with&nbsp;&nbsp;&nbsp;&nbsp; others crypto punks projects ?<br></span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><br></span><span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;">&nbsp; DogeInu Punks has been redesigning&nbsp; from scratch and new traits have been added that don't exist in the original. <br><br>&nbsp; Along with similar punk types (Alien, Male, Female, etc ...), we've added new attributes like new backgrounds, pins, and outfits. In total there are 140+ attributes.<br><br>&nbsp; Now the punk-style dogs are cuter and funnier. Rarity traits will be revealed after the mint sold out.<br><br><br><br><br><br><br></span></div>
-<div id="wb_PhotoGallery1" style="position:absolute;left:46px;top:3868px;width:904px;height:194px;z-index:37;">
+<div id="wb_PhotoGallery1" style="position:absolute;left:46px;top:3868px;width:904px;height:194px;z-index:42;">
 <div id="PhotoGallery1">
    <div class="thumbnails">
       <div class="thumbnail">
@@ -3814,113 +4610,113 @@ $(document).ready(function()
       <div class="clearfix visible-col10"></div>
    </div>
 </div></div>
-<div id="wb_FaqShape1" style="position:absolute;left:99px;top:2910px;width:704px;height:10px;visibility:hidden;z-index:38;">
+<div id="wb_FaqShape1" style="position:absolute;left:99px;top:2910px;width:704px;height:10px;visibility:hidden;z-index:43;">
 <img src="images/img0012.png" id="FaqShape1" alt="" width="704" height="10" style="width:704px;height:10px;"></div>
-<div id="wb_ShapeP5" style="position:absolute;left:198px;top:2520px;width:200px;height:8px;z-index:39;">
+<div id="wb_ShapeP5" style="position:absolute;left:198px;top:2520px;width:200px;height:8px;z-index:44;">
 <img src="images/img0011.png" id="ShapeP5" alt="" width="200" height="8" style="width:200px;height:8px;"></div>
-<div id="wb_ShapeP4" style="position:absolute;left:198px;top:2219px;width:200px;height:8px;z-index:40;">
+<div id="wb_ShapeP4" style="position:absolute;left:198px;top:2219px;width:200px;height:8px;z-index:45;">
 <img src="images/img0010.png" id="ShapeP4" alt="" width="200" height="8" style="width:200px;height:8px;"></div>
-<div id="wb_ShapeP3" style="position:absolute;left:198px;top:1948px;width:200px;height:8px;z-index:41;">
+<div id="wb_ShapeP3" style="position:absolute;left:198px;top:1948px;width:200px;height:8px;z-index:46;">
 <img src="images/img0009.png" id="ShapeP3" alt="" width="200" height="8" style="width:200px;height:8px;"></div>
-<div id="wb_ShapeP2" style="position:absolute;left:198px;top:1648px;width:200px;height:8px;z-index:42;">
+<div id="wb_ShapeP2" style="position:absolute;left:198px;top:1648px;width:200px;height:8px;z-index:47;">
 <img src="images/img0008.png" id="ShapeP2" alt="" width="200" height="8" style="width:200px;height:8px;"></div>
-<div id="wb_RoadmapShape1" style="position:absolute;left:115px;top:1291px;width:704px;height:10px;visibility:hidden;z-index:43;">
+<div id="wb_RoadmapShape1" style="position:absolute;left:115px;top:1291px;width:704px;height:10px;visibility:hidden;z-index:48;">
 <img src="images/img0001.png" id="RoadmapShape1" alt="" width="704" height="10" style="width:704px;height:10px;"></div>
-<div id="wb_FaqAccordion" style="position:absolute;left:46px;top:2951px;width:904px;height:525px;z-index:44;">
+<div id="wb_FaqAccordion" style="position:absolute;left:46px;top:2951px;width:904px;height:525px;z-index:49;">
 <div id="FaqAccordion">
 <h4>Public mint date</h4>
 <div>
-<div id="wb_Question1" style="position:absolute;left:23px;top:17px;width:249px;height:16px;z-index:3;">
+<div id="wb_Question1" style="position:absolute;left:23px;top:15px;width:249px;height:16px;z-index:7;">
 <span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;">Live now.</span></div>
 </div>
 <h4>How much will it cost to mint each DogeInu Punk ?</h4>
 <div>
-<div id="wb_Question2" style="position:absolute;left:10px;top:-68px;width:250px;height:16px;z-index:4;">
+<div id="wb_Question2" style="position:absolute;left:10px;top:-72px;width:250px;height:16px;z-index:8;">
 <span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;">0.05ETH excluding gas fees</span></div>
-<div id="wb_Text1" style="position:absolute;left:23px;top:14px;width:250px;height:16px;z-index:5;">
+<div id="wb_Text1" style="position:absolute;left:23px;top:10px;width:250px;height:16px;z-index:9;">
 <span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;">0.05ETH excluding gas fees.</span></div>
 </div>
 <h4>How many DogeInu Punks in total and can be minted in a single transaction ?</h4>
 <div>
-<div id="wb_Question3" style="position:absolute;left:23px;top:17px;width:307px;height:16px;z-index:6;">
+<div id="wb_Question3" style="position:absolute;left:23px;top:11px;width:307px;height:16px;z-index:10;">
 <span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;">Supply of 10,000 NFTs and 15 per tx.</span></div>
 </div>
 <h4>Blockchain</h4>
 <div>
-<div id="wb_Question4" style="position:absolute;left:10px;top:-146px;width:251px;height:16px;z-index:7;">
+<div id="wb_Question4" style="position:absolute;left:10px;top:-154px;width:251px;height:16px;z-index:11;">
 <span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;">Ethereun blockchain.</span></div>
-<div id="wb_Text2" style="position:absolute;left:23px;top:16px;width:251px;height:16px;z-index:8;">
+<div id="wb_Text2" style="position:absolute;left:23px;top:8px;width:251px;height:16px;z-index:12;">
 <span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;">Ethereun blockchain.</span></div>
 </div>
 <h4>How to mint ?</h4>
 <div>
-<div id="wb_Question5" style="position:absolute;left:23px;top:15px;width:684px;height:224px;z-index:9;">
+<div id="wb_Question5" style="position:absolute;left:23px;top:5px;width:684px;height:224px;z-index:13;">
 <span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;">First, make sure you have enough $ETH in your wallet and that your wallet is on the correct mainnet (Ethereum's mainnet).<br><br>By simply clicking the Mint button, you will be redirected to the minting page and pressing &quot;connect to metamask&quot; to log into your Metamask wallet, select the amount and click the buy button. <br><br>If Metamask is installed correctly, a pop-up window will open and you just need to confirm the transaction. <br>You can adjust the gas limit according to the network situation but it is not recommended to significantly lower the gas limit to avoid a transaction error.<br><br>After the mint is finished, you can directly view your NFT in Opensea at dogeinupunks collection and can put it up for sale in the second market.</span><span style="color:#000000;font-family:Arial;font-size:13px;">.</span></div>
 </div>
 <h4>What's different with others crypto punks projects ?</h4>
 <div>
-<div id="wb_Question6" style="position:absolute;left:23px;top:16px;width:681px;height:128px;z-index:10;">
+<div id="wb_Question6" style="position:absolute;left:23px;top:4px;width:681px;height:128px;z-index:14;">
 <span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;">DogeInu Punks has been redesigning from scratch and new traits have been added that don't exist in the original. <br><br>Along with similar punk types (Alien, Male, Female, etc ...), we've added new attributes like new backgrounds, pins, and outfits. In total there are 140+ attributes.<br><br>Now the punk-style dogs are cuter and funnier. Rarity traits will be revealed after the mint sold out.</span></div>
 </div>
 </div>
 </div>
-<div id="wb_RoadmapIcon1" style="position:absolute;left:130px;top:1351px;width:20px;height:20px;text-align:center;z-index:45;">
+<div id="wb_RoadmapIcon1" style="position:absolute;left:130px;top:1351px;width:20px;height:20px;text-align:center;z-index:50;">
 <div id="RoadmapIcon1"><i class="fa fa-flag-checkered"></i></div></div>
-<div id="wb_AboutTitle" style="position:absolute;left:46px;top:342px;width:83px;height:24px;z-index:46;">
-<div style="position:absolute;left:0px;top:0px;width:83px;height:24px;"><span style="color:#FFFFFF;font-family:Pixellari;font-size:24px;"><em>ABOUT</em></span></div>
+<div id="wb_AboutTitle" style="position:absolute;left:46px;top:342px;width:83px;height:24px;z-index:51;">
+<div style="position:absolute;left:0px;top:0px;width:83px;height:28px;"><span style="color:#FFFFFF;font-family:Pixellari;font-size:24px;"><em>ABOUT</em></span></div>
 </div>
-<div id="wb_AboutShape" style="position:absolute;left:99px;top:266px;width:272px;height:8px;visibility:hidden;z-index:47;">
+<div id="wb_AboutShape" style="position:absolute;left:99px;top:266px;width:272px;height:8px;visibility:hidden;z-index:52;">
 <img src="images/img0013.png" id="AboutShape" alt="" width="272" height="8" style="width:272px;height:8px;"></div>
-<div id="wb_TextP5" style="position:absolute;left:130px;top:2563px;width:734px;height:80px;z-index:48;">
+<div id="wb_TextP5" style="position:absolute;left:130px;top:2563px;width:734px;height:80px;z-index:53;">
 <span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;"><strong><br>&nbsp; </strong>To infinity and beyond.<br><br><br></span></div>
-<div id="wb_GalleryShape" style="position:absolute;left:99px;top:266px;width:272px;height:8px;visibility:hidden;z-index:49;">
+<div id="wb_GalleryShape" style="position:absolute;left:99px;top:266px;width:272px;height:8px;visibility:hidden;z-index:54;">
 <img src="images/img0016.png" id="GalleryShape" alt="" width="272" height="8" style="width:272px;height:8px;"></div>
-<div id="wb_GalleryTitle" style="position:absolute;left:46px;top:3816px;width:106px;height:24px;z-index:50;">
-<div style="position:absolute;left:0px;top:0px;width:106px;height:24px;"><span style="color:#FFFFFF;font-family:Pixellari;font-size:24px;"><em>GALLERY</em></span></div>
+<div id="wb_GalleryTitle" style="position:absolute;left:46px;top:3816px;width:106px;height:24px;z-index:55;">
+<div style="position:absolute;left:0px;top:0px;width:106px;height:28px;"><span style="color:#FFFFFF;font-family:Pixellari;font-size:24px;"><em>GALLERY</em></span></div>
 </div>
-<button type="button" id="MintButton" onclick="window.location.href='https://www.mint.dogeinupunks.io';return false;" name="Mint" value="Mint" class="ui-button ui-corner-all ui-widget" style="position:absolute;left:389px;top:3627px;width:144px;height:59px;z-index:51;">Mint<span class="ui-button-icon ui-icon ui-primary"></span><span class="ui-button-icon-space"> </span></button>
-<div id="wb_Shape9" style="position:absolute;left:99px;top:266px;width:272px;height:8px;visibility:hidden;z-index:52;">
+<button type="button" id="MintButton" onclick="window.location.href='https://www.mint.dogeinupunks.io';return false;" name="Mint" value="Mint" class="ui-button ui-corner-all ui-widget" style="position:absolute;left:389px;top:3627px;width:144px;height:59px;z-index:56;">Mint<span class="ui-button-icon ui-icon ui-primary"></span><span class="ui-button-icon-space"> </span></button>
+<div id="wb_Shape9" style="position:absolute;left:99px;top:266px;width:272px;height:8px;visibility:hidden;z-index:57;">
 <img src="images/img0015.png" id="Shape9" alt="" width="272" height="8" style="width:272px;height:8px;"></div>
-<div id="wb_FaqTitle" style="position:absolute;left:46px;top:2886px;width:59px;height:24px;z-index:53;">
-<div style="position:absolute;left:0px;top:0px;width:59px;height:24px;"><span style="color:#FFFFFF;font-family:Pixellari;font-size:24px;"><em>FAQ</em></span></div>
+<div id="wb_FaqTitle" style="position:absolute;left:46px;top:2886px;width:59px;height:24px;z-index:58;">
+<div style="position:absolute;left:0px;top:0px;width:59px;height:28px;"><span style="color:#FFFFFF;font-family:Pixellari;font-size:24px;"><em>FAQ</em></span></div>
 </div>
-<div id="wb_Phase5Icon" style="position:absolute;left:130px;top:2494px;width:20px;height:20px;text-align:center;z-index:54;">
+<div id="wb_Phase5Icon" style="position:absolute;left:130px;top:2494px;width:20px;height:20px;text-align:center;z-index:59;">
 <div id="Phase5Icon"><i class="fa fa-rocket"></i></div></div>
-<div id="wb_TitleP5" style="position:absolute;left:198px;top:2504px;width:109px;height:16px;z-index:55;">
+<div id="wb_TitleP5" style="position:absolute;left:198px;top:2504px;width:109px;height:16px;z-index:60;">
 <span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;"><strong> </strong>FIFTH PHASE</span></div>
-<div id="wb_TextP4" style="position:absolute;left:130px;top:2261px;width:734px;height:173px;z-index:56;">
+<div id="wb_TextP4" style="position:absolute;left:130px;top:2261px;width:734px;height:173px;z-index:61;">
 <span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;"><strong><br>&nbsp; </strong>Will be announced upon completion of the minting process including a charitable donation voted by the community and will assess the possibility of future collaboration with other similar projects to take the project to another level. </span><span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:16px;"><br><br></span><span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;">&nbsp; All this of course validated by the community members.<br></span><span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:16px;"><br><br><br></span></div>
-<div id="wb_Phase4Icon" style="position:absolute;left:130px;top:2192px;width:20px;height:20px;text-align:center;z-index:57;">
+<div id="wb_Phase4Icon" style="position:absolute;left:130px;top:2192px;width:20px;height:20px;text-align:center;z-index:62;">
 <div id="Phase4Icon"><i class="fa fa-hourglass"></i></div></div>
-<div id="wb_TitleP4" style="position:absolute;left:198px;top:2203px;width:122px;height:16px;z-index:58;">
+<div id="wb_TitleP4" style="position:absolute;left:198px;top:2203px;width:122px;height:16px;z-index:63;">
 <span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;">FOURTH PHASE</span></div>
-<div id="wb_TextP3" style="position:absolute;left:130px;top:1992px;width:734px;height:140px;z-index:59;">
+<div id="wb_TextP3" style="position:absolute;left:130px;top:1992px;width:734px;height:140px;z-index:64;">
 <span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;"><strong> <br>&nbsp; </strong>Based on DAOs (Decentralized Autonomous Organizations), the community will have the decision-making power and consensus will determine the path to follow. <br><br>&nbsp; All activity concerning the project will be transparent and fully public.<br><br><br></span></div>
-<div id="wb_TitleP3" style="position:absolute;left:198px;top:1932px;width:113px;height:16px;z-index:60;">
+<div id="wb_TitleP3" style="position:absolute;left:198px;top:1932px;width:113px;height:16px;z-index:65;">
 <span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;">THIRD PHASE</span></div>
-<div id="wb_Phase3Icon" style="position:absolute;left:130px;top:1923px;width:20px;height:20px;text-align:center;z-index:61;">
+<div id="wb_Phase3Icon" style="position:absolute;left:130px;top:1923px;width:20px;height:20px;text-align:center;z-index:66;">
 <div id="Phase3Icon"><i class="fa fa-bullhorn"></i></div></div>
-<div id="wb_TextP2" style="position:absolute;left:130px;top:1696px;width:734px;height:167px;z-index:62;">
+<div id="wb_TextP2" style="position:absolute;left:130px;top:1696px;width:734px;height:167px;z-index:67;">
 <span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:20px;"><strong> <br>&nbsp; </strong></span><span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;">Developping community trought Discord channel and other media. <br><br>&nbsp; Numerous giveaways for the community after 25% minting and the possibility to win Ethereums after the collection sold out.<br><br>&nbsp; According to the new traits added, the rarity classification will also be revealed</span><span style="color:#B7C2C8;font-family:Pixellari;font-size:16px;">. <br><br><br></span></div>
-<div id="wb_Phase2Icon" style="position:absolute;left:130px;top:1624px;width:20px;height:20px;text-align:center;z-index:63;">
+<div id="wb_Phase2Icon" style="position:absolute;left:130px;top:1624px;width:20px;height:20px;text-align:center;z-index:68;">
 <div id="Phase2Icon"><i class="fa fa-globe"></i></div></div>
-<div id="wb_TitleP2" style="position:absolute;left:198px;top:1632px;width:124px;height:16px;z-index:64;">
+<div id="wb_TitleP2" style="position:absolute;left:198px;top:1632px;width:124px;height:16px;z-index:69;">
 <span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;">SECOND PHASE</span></div>
-<div id="wb_RoadmapShape" style="position:absolute;left:99px;top:266px;width:272px;height:8px;visibility:hidden;z-index:65;">
+<div id="wb_RoadmapShape" style="position:absolute;left:99px;top:266px;width:272px;height:8px;visibility:hidden;z-index:70;">
 <img src="images/img0014.png" id="RoadmapShape" alt="" width="272" height="8" style="width:272px;height:8px;"></div>
-<div id="wb_RoadmapTitle" style="position:absolute;left:46px;top:1267px;width:119px;height:24px;z-index:66;">
-<div style="position:absolute;left:0px;top:0px;width:119px;height:24px;"><span style="color:#FFFFFF;font-family:Pixellari;font-size:24px;"><em>ROADMAP</em></span></div>
+<div id="wb_RoadmapTitle" style="position:absolute;left:46px;top:1267px;width:119px;height:24px;z-index:71;">
+<div style="position:absolute;left:0px;top:0px;width:119px;height:28px;"><span style="color:#FFFFFF;font-family:Pixellari;font-size:24px;"><em>ROADMAP</em></span></div>
 </div>
-<div id="wb_AboutText" style="position:absolute;left:46px;top:421px;width:424px;height:616px;visibility:hidden;z-index:67;">
-<span style="color:#FFFFFF;font-family:Pixellari;font-size:19px;line-height:30px;">The family of NFT punks is growing. The punks are back and this time in the form of an adorable dogs originally drawn in 32x32 pixels, enlarged and enhanced with a polaroid frame which makes them cuter and funnier.<br><br>The collection is composed by 10,000 NFTs inspired by the popular Crypto Punks.<br><br> With new traits, a total of 140+ different attributes make up the collection.<br><br> DogeInu Punks is a randomness minting. Everyone has an equal chance to mint a valuable DogeInu Punk.<br><br>Come on and join the DogeInu Punks family.<br><br>The project is totally original and has no affiliation with Larva Labs.<br></span></div>
-<div id="wb_PhotoCollage" style="position:absolute;left:497px;top:421px;width:336px;height:336px;z-index:68;">
+<div id="wb_AboutText" style="position:absolute;left:46px;top:421px;width:424px;height:616px;visibility:hidden;z-index:72;">
+<span style="color:#FFFFFF;font-family:Pixellari;font-size:19px;line-height:30px;">The family of NFT punks is growing. The punks are back and this time in the form of an adorable dogs originally drawn in 32x32 pixels, enlarged and enhanced with a polaroid frame which makes them cuter and funnier.<br><br>The collection is composed by 10,000 NFTs inspired by the popular Crypto Punks.<br><br> With new traits, a total of 140+ different attributes make up the collection.<br><br> DogeInu Punks is a randomness minting. Everyone has an equal chance to mint a most rarer DogeInu Punk NFT.<br><br>Come on and join the DogeInu Punks family.<br><br>The project is totally original and has no affiliation with Larva Labs.<br></span></div>
+<div id="wb_PhotoCollage" style="position:absolute;left:497px;top:421px;width:336px;height:336px;z-index:73;">
 <div id="PhotoCollage">
    <div class="thumbnails">
       <div class="thumbnail">
-         <a href="images/Collage1.webp"><img alt="" src="images/Collage1.webp" class="image" width="104" height="113"></a>
+         <a href="images/Collage1.webp"><img alt="" src="images/Collage1.webp" class="image" width="104" height="112"></a>
       </div>
       <div class="thumbnail">
-         <a href="images/Collage2.webp"><img alt="" src="images/Collage2.webp" class="image" width="104" height="112"></a>
+         <a href="images/Collage2.webp"><img alt="" src="images/Collage2.webp" class="image" width="104" height="113"></a>
       </div>
       <div class="thumbnail">
          <a href="images/Collage3.webp"><img alt="" src="images/Collage3.webp" class="image" width="104" height="112"></a>
@@ -3936,16 +4732,16 @@ $(document).ready(function()
       </div>
    </div>
 </div></div>
-<div id="Logo" style="position:absolute;text-align:left;visibility:hidden;left:8px;top:6px;width:304px;height:56px;z-index:69;">
-<div id="wb_Home" style="position:absolute;left:11px;top:8px;width:17px;height:26px;z-index:11;">
+<div id="Logo" style="position:absolute;text-align:left;visibility:hidden;left:8px;top:6px;width:304px;height:56px;z-index:74;">
+<div id="wb_Home" style="position:absolute;left:11px;top:8px;width:17px;height:26px;z-index:15;">
 <div id="Home" style="visibility:hidden;"></div>
 </div>
-<div id="wb_Logo320" style="position:absolute;left:24px;top:8px;width:255px;height:48px;visibility:hidden;z-index:12;">
+<div id="wb_Logo320" style="position:absolute;left:24px;top:8px;width:255px;height:48px;visibility:hidden;z-index:16;">
 <img src="images/Logo255.webp" id="Logo320" alt="" width="255" height="48"></div>
 </div>
-<div id="wb_Shape11" style="position:absolute;left:115px;top:3840px;width:646px;height:10px;visibility:hidden;z-index:70;">
+<div id="wb_Shape11" style="position:absolute;left:115px;top:3840px;width:646px;height:10px;visibility:hidden;z-index:75;">
 <img src="images/img0003.png" id="Shape11" alt="" width="646" height="10" style="width:646px;height:10px;"></div>
-<div id="wb_CssMenu" style="position:absolute;left:0px;top:82px;width:675px;height:64px;z-index:71;">
+<div id="wb_CssMenu" style="position:absolute;left:0px;top:82px;width:675px;height:64px;z-index:76;">
 <ul id="CssMenu" role="menubar" class="nav">
 <li role="menuitem" class="nav-item firstmain"><a class="nav-link" href="#Home" target="_self" title="Home"><i class="fa fa-home">&nbsp;</i>Home</a>
 </li>
@@ -3961,178 +4757,186 @@ $(document).ready(function()
 </li>
 </ul>
 </div>
-<div id="wb_About" style="position:absolute;left:47px;top:218px;width:29px;height:32px;z-index:73;">
+<div id="wb_About" style="position:absolute;left:47px;top:218px;width:29px;height:32px;z-index:78;">
 <div id="About" style="visibility:hidden;"></div>
 </div>
-<div id="wb_Roadmap" style="position:absolute;left:47px;top:1167px;width:17px;height:17px;z-index:74;">
+<div id="wb_Roadmap" style="position:absolute;left:47px;top:1167px;width:17px;height:17px;z-index:79;">
 <div id="Roadmap" style="visibility:hidden;"></div>
 </div>
-<div id="wb_Faq" style="position:absolute;left:47px;top:2787px;width:17px;height:17px;z-index:75;">
+<div id="wb_Faq" style="position:absolute;left:47px;top:2787px;width:17px;height:17px;z-index:80;">
 <div id="Faq" style="visibility:hidden;"></div>
 </div>
-<div id="wb_Mint" style="position:absolute;left:451px;top:3551px;width:20px;height:20px;z-index:76;">
+<div id="wb_Mint" style="position:absolute;left:451px;top:3551px;width:20px;height:20px;z-index:81;">
 <div id="Mint" style="visibility:hidden;"></div>
 </div>
-<div id="wb_Gallery" style="position:absolute;left:47px;top:3701px;width:17px;height:22px;z-index:77;">
+<div id="wb_Gallery" style="position:absolute;left:47px;top:3701px;width:17px;height:22px;z-index:82;">
 <div id="Gallery" style="visibility:hidden;"></div>
 </div>
-<div id="wb_SlideShow320" style="position:absolute;left:8px;top:3964px;width:223px;height:239px;visibility:hidden;z-index:78;">
+<div id="wb_SlideShow320" style="position:absolute;left:39px;top:3398px;width:223px;height:239px;visibility:hidden;z-index:83;">
 <div id="SlideShow320" class="carousel slide">
 <div class="carousel-inner">
 <div class="carousel-item active">
 <div class="thumbnails">
 <div class="thumbnail">
-<img class="image" width="925" height="1000" src="images/1175.webp" alt="" title="">
+<img class="image" src="images/webp%281%29.webp" alt="" title="">
 </div>
 </div>
 </div>
 <div class="carousel-item">
 <div class="thumbnails">
 <div class="thumbnail">
-<img class="image" width="925" height="1000" src="images/2160.webp" alt="" title="">
+<img class="image" src="images/webp%282%29.webp" alt="" title="">
 </div>
 </div>
 </div>
 <div class="carousel-item">
 <div class="thumbnails">
 <div class="thumbnail">
-<img class="image" width="925" height="1000" src="images/3364.webp" alt="" title="">
+<img class="image" src="images/webp%283%29.webp" alt="" title="">
 </div>
 </div>
 </div>
 <div class="carousel-item">
 <div class="thumbnails">
 <div class="thumbnail">
-<img class="image" width="925" height="1000" src="images/3429.webp" alt="" title="">
+<img class="image" src="images/webp%284%29.webp" alt="" title="">
 </div>
 </div>
 </div>
 <div class="carousel-item">
 <div class="thumbnails">
 <div class="thumbnail">
-<img class="image" width="925" height="1000" src="images/3430.webp" alt="" title="">
+<img class="image" src="images/webp%285%29.webp" alt="" title="">
 </div>
 </div>
 </div>
 <div class="carousel-item">
 <div class="thumbnails">
 <div class="thumbnail">
-<img class="image" width="925" height="1000" src="images/3433.webp" alt="" title="">
+<img class="image" src="images/webp%286%29.webp" alt="" title="">
 </div>
 </div>
 </div>
 <div class="carousel-item">
 <div class="thumbnails">
 <div class="thumbnail">
-<img class="image" width="925" height="1000" src="images/3435.webp" alt="" title="">
+<img class="image" src="images/webp%287%29.webp" alt="" title="">
 </div>
 </div>
 </div>
 <div class="carousel-item">
 <div class="thumbnails">
 <div class="thumbnail">
-<img class="image" width="925" height="1000" src="images/3436.webp" alt="" title="">
+<img class="image" src="images/webp%288%29.webp" alt="" title="">
 </div>
 </div>
 </div>
 <div class="carousel-item">
 <div class="thumbnails">
 <div class="thumbnail">
-<img class="image" width="925" height="1000" src="images/3444.webp" alt="" title="">
+<img class="image" src="images/webp%289%29.webp" alt="" title="">
 </div>
 </div>
 </div>
 <div class="carousel-item">
 <div class="thumbnails">
 <div class="thumbnail">
-<img class="image" width="925" height="1000" src="images/3529.webp" alt="" title="">
+<img class="image" src="images/webp%2810%29.webp" alt="" title="">
 </div>
 </div>
 </div>
 <div class="carousel-item">
 <div class="thumbnails">
 <div class="thumbnail">
-<img class="image" width="925" height="1000" src="images/6348.webp" alt="" title="">
+<img class="image" src="images/webp%2811%29.webp" alt="" title="">
 </div>
 </div>
 </div>
 <div class="carousel-item">
 <div class="thumbnails">
 <div class="thumbnail">
-<img class="image" width="925" height="1000" src="images/6647.webp" alt="" title="">
+<img class="image" src="images/webp%2812%29.webp" alt="" title="">
 </div>
 </div>
 </div>
 <div class="carousel-item">
 <div class="thumbnails">
 <div class="thumbnail">
-<img class="image" width="925" height="1000" src="images/7739.webp" alt="" title="">
+<img class="image" src="images/webp%2813%29.webp" alt="" title="">
 </div>
 </div>
 </div>
 <div class="carousel-item">
 <div class="thumbnails">
 <div class="thumbnail">
-<img class="image" width="925" height="1000" src="images/7747.webp" alt="" title="">
+<img class="image" src="images/webp%2814%29.webp" alt="" title="">
 </div>
 </div>
 </div>
 <div class="carousel-item">
 <div class="thumbnails">
 <div class="thumbnail">
-<img class="image" width="925" height="1000" src="images/8045.webp" alt="" title="">
+<img class="image" src="images/webp%2815%29.webp" alt="" title="">
 </div>
 </div>
 </div>
 <div class="carousel-item">
 <div class="thumbnails">
 <div class="thumbnail">
-<img class="image" width="925" height="1000" src="images/8092.webp" alt="" title="">
+<img class="image" src="images/webp%2816%29.webp" alt="" title="">
 </div>
 </div>
 </div>
 <div class="carousel-item">
 <div class="thumbnails">
 <div class="thumbnail">
-<img class="image" width="925" height="1000" src="images/8098.webp" alt="" title="">
+<img class="image" src="images/webp%2817%29.webp" alt="" title="">
 </div>
 </div>
 </div>
 <div class="carousel-item">
 <div class="thumbnails">
 <div class="thumbnail">
-<img class="image" width="925" height="1000" src="images/8111.webp" alt="" title="">
+<img class="image" src="images/webp%2818%29.webp" alt="" title="">
 </div>
 </div>
 </div>
 <div class="carousel-item">
 <div class="thumbnails">
 <div class="thumbnail">
-<img class="image" width="925" height="1000" src="images/8128.webp" alt="" title="">
+<img class="image" src="images/webp%2819%29.webp" alt="" title="">
 </div>
 </div>
 </div>
 <div class="carousel-item">
 <div class="thumbnails">
 <div class="thumbnail">
-<img class="image" width="925" height="1000" src="images/9997.webp" alt="" title="">
+<img class="image" src="images/webp%2820%29.webp" alt="" title="">
 </div>
 </div>
 </div>
 </div>
 </div>
+<div id="SlideShow320_back" style="position:absolute;left:10px;top:87%;width:30px;height:30px;z-index:999"><a href="#SlideShow320" data-slide="prev" style="cursor:pointer"><img alt="Back" style="border-style:none" src="images/carousel_back.png"></a></div>
+<div id="SlideShow320_next" style="position:absolute;right:10px;top:87%;width:30px;height:30px;z-index:999"><a href="#SlideShow320" data-slide="next" style="cursor:pointer"><img alt="Next" style="border-style:none" src="images/carousel_next.png"></a></div>
 </div>
-<div id="wb_GalleryShape1" style="position:absolute;left:0px;top:374px;width:704px;height:10px;visibility:hidden;z-index:79;">
-<img src="images/img0025.png" id="GalleryShape1" alt="" width="704" height="10" style="width:704px;height:10px;"></div>
+<div id="wb_twitter320" style="position:absolute;left:588px;top:32px;width:35px;height:31px;visibility:hidden;text-align:center;z-index:84;">
+<a href="https://twitter.com/PunksInu" rel="noreferrer" target="_blank" title="Twitter"><div id="twitter320"><i class="twitter320"></i></div></a></div>
+<div id="wb_Opensea320" style="position:absolute;left:620px;top:32px;width:35px;height:31px;visibility:hidden;text-align:center;z-index:85;">
+<a href="https://opensea.io/collection/dogeinupunks" rel="noreferrer" target="_blank" title="Opensea"><div id="Opensea320"><i class="Opensea320"></i></div></a></div>
+<div id="wb_Discord320" style="position:absolute;left:655px;top:32px;width:35px;height:31px;visibility:hidden;text-align:center;z-index:86;">
+<a href="https://discord.com/" rel="noreferrer" target="_blank" title="Coming soon"><div id="Discord320"><i class="Discord320"></i></div></a></div>
+<div id="wb_Contract320" style="position:absolute;left:694px;top:32px;width:35px;height:31px;visibility:hidden;text-align:center;z-index:87;">
+<a href="https://etherscan.io/address/0xea32a7c808e70a5017d8613cce63ed4a6cde8f54" rel="noreferrer" target="_blank" title="Contract"><div id="Contract320"><i class="Contract320"></i></div></a></div>
 </div>
-<div id="FooterLayer" style="position:absolute;text-align:center;left:0px;top:4203px;width:99.1744%;height:26px;z-index:80;">
-<div id="FooterLayer_Container" style="width:961px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<div id="FooterLayer" style="position:absolute;text-align:center;left:0px;top:4203px;width:100%;height:26px;z-index:88;">
+<div id="FooterLayer_Container" style="width:969px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
 </div>
 </div>
-<div id="Footer" style="position:absolute;text-align:center;left:0px;top:4229px;width:99.1744%;height:100px;z-index:81;">
-<div id="Footer_Container" style="width:961px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
-<div id="wb_FooterText" style="position:absolute;left:95px;top:42px;width:780px;height:16px;text-align:center;z-index:2;">
-<span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;">Copyright © DogeInu Punks&nbsp; ·&nbsp; All Rights reserved </span></div>
+<div id="Footer" style="position:absolute;text-align:center;left:0px;top:4229px;width:100%;height:100px;z-index:89;">
+<div id="Footer_Container" style="width:969px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<div id="wb_FooterText" style="position:absolute;left:95px;top:42px;width:780px;height:16px;text-align:center;z-index:6;">
+<span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;">Copyright © DogeInu Punks&nbsp; ·&nbsp; All Rights Reserved </span></div>
 </div>
 </div>
 </body>
