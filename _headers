@@ -10,4 +10,4 @@
   Cache-Control: max-age=604800
   
   /*
-  Content-Security-Policy: default-src 'self'; script-src 'self'; frame-src 'self'; style-src 'self';
+  Content-Security-Policy: default-src 'self'; script-src style-src 'unsafe-inline'; frame-src 'self'; style-src style-src 'unsafe-inline';
