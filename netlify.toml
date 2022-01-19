@@ -1,4 +1,0 @@
-[[headers]]
- for = "/*"
-[headers.values]
-Content-Security-Policy = "default-src 'self' https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/;"
