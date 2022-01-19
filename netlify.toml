@@ -1,4 +1,4 @@
 [[headers]]
  for = "/*"
 [headers.values]
-Content-Security-Policy = "default-src 'unsafe-inline';style-src 'self' https://dogggy.netlify.app/css/dark-hive/jquery-ui.min.css;"
+Content-Security-Policy = "default-src 'unsafe-inline';style-src https://dogggy.netlify.app/css/dark-hive/jquery-ui.min.css;"
