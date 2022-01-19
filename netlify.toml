@@ -4,4 +4,4 @@
  X-Frame-Options = "SAMEORIGIN"
  X-XSS-Protection = "1; mode=block"
  X-Content-Type-Options = "nosniff"
- Content-Security-Policy = "default-src 'none'; script-src 'self' https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=_RoKVPeAEpk2gQVR_1T3LK0Bv8CAWDHqNfIHr4FRqlqV7Q5yxWD3-PDCg8Ecgegh www.googletagmanager.com www.google-analytics.com; connect-src 'self'; img-src 'self'; style-src 'self';base-uri 'self';form-action 'self'"
+ Content-Security-Policy = "default-src 'self';"
