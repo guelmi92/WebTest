@@ -5,5 +5,4 @@
  X-XSS-Protection = "1"
  X-Content-Type-Options = "nosniff"
  Content-Security-Policy = "default-src 'self';" 
- Content-Security-Policy = "style-src 'self';" 
  
