@@ -7,5 +7,4 @@
  Content-Security-Policy = "default-src 'self';" 
  Content-Security-Policy = "style-src 'self';" 
  Content-Security-Policy = "form-action 'self';" 
- Content-Security-Policy = "base-uri 'self';"
-
+ 
