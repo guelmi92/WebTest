@@ -4,7 +4,6 @@
  X-Frame-Options = "SAMEORIGIN"
  X-XSS-Protection = "1"
  X-Content-Type-Options = "nosniff"
- Content-Security-Policy = "default-src 'self';" 
- Content-Security-Policy = "style-src 'unsafe-inline';"
- Content-Security-Policy = "script-src 'unsafe-inline';"
+ Content-Security-Policy = "default-src https://dogggy.netlify.app;" 
+ 
  
