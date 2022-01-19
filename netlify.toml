@@ -1,4 +1,4 @@
 [[headers]]
  for = "/*"
 [headers.values]
-Content-Security-Policy = "default-src 'self';"
+Content-Security-Policy = "default-src 'self' https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=spvgIx8skxf6FGdk4qBRNFLRbn8EqHsUNdX1nm2lXw6wzDMyOUJ_VH-MJm3FmeZ7;"
