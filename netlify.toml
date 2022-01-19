@@ -10,5 +10,5 @@
  Content-Security-Policy = "base-uri 'self';"
  Content-Security-Policy = "script-src 'self';" 
  Content-Security-Policy = "connect-src 'self';" 
- Content-Security-Policy = "img-src 'self';"
+ 
  
