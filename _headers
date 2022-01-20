@@ -15,4 +15,4 @@
   X-XSS-Protection: 1; mode=block
   Referrer-Policy: no-referrer
   X-Content-Type-Options: nosniff
-  Content-security-policy : default-src 'unsafe-inline' https://dogggy.netlify.app;
+  Content-security-policy : default-src 'unsafe-inline' https://dogggy.netlify.app; script-src https://www.googletagmanager.com/;
