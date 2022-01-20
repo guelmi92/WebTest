@@ -15,5 +15,5 @@
   X-XSS-Protection: 1; mode=block
   Referrer-Policy: no-referrer
   X-Content-Type-Options: nosniff
-  Content-security-policy : default-src 'unsafe-inline' https://dogggy.netlify.app; script-src  https://dogggy.netlify.app/js/jquery-3.6.0.min.js https://dogggy.netlify.app/js/jquery-ui.min.js https://dogggy.netlify.app/js/wb.photocollage.min.js https://dogggy.netlify.app/js/affix.min.js https://dogggy.netlify.app/js/util.min.js https://dogggy.netlify.app/js/carousel.min.js https://dogggy.netlify.app/js/wwb17.min.js https://dogggy.netlify.app https://www.googletagmanager.com; connect-src https://www.googletagmanager.com;
+  Content-security-policy : default-src 'self' https://dogggy.netlify.app; script-src  https://dogggy.netlify.app/js/jquery-3.6.0.min.js https://dogggy.netlify.app/js/jquery-ui.min.js https://dogggy.netlify.app/js/wb.photocollage.min.js https://dogggy.netlify.app/js/affix.min.js https://dogggy.netlify.app/js/util.min.js https://dogggy.netlify.app/js/carousel.min.js https://dogggy.netlify.app/js/wwb17.min.js https://dogggy.netlify.app https://www.googletagmanager.com; connect-src https://www.googletagmanager.com;
   
