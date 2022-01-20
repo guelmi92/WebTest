@@ -15,5 +15,5 @@
   X-XSS-Protection: 1; mode=block
   Referrer-Policy: no-referrer
   X-Content-Type-Options: nosniff
-  Content-security-policy : default-src 'self'; script-src 'self' jquery-ui.min.css https://dogggy.netlify.app http://getbootstrap.com/  jquery.org http://jqueryui.com http://www.wysiwygwebbuilder.com; connect-src 'self'; img-src 'self'; style-src 'self' https://gc.kis.v2.scr.kaspersky-labs.com wss://gc.kis.v2.scr.kaspersky-labs.com;base-uri 'self';form-action 'self'
+  Content-security-policy : default-src 'self' 'unsafe-inline' https://dogggy.netlify.app; script-src 'self' jquery-ui.min.css https://dogggy.netlify.app http://getbootstrap.com/  jquery.org http://jqueryui.com http://www.wysiwygwebbuilder.com; connect-src 'self'; img-src 'self'; style-src 'self' https://gc.kis.v2.scr.kaspersky-labs.com wss://gc.kis.v2.scr.kaspersky-labs.com;base-uri 'self';form-action 'self'
   
