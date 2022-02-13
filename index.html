@@ -268,6 +268,9 @@ $(document).ready(function()
 <div id="wb_IconFont2" style="position:absolute;left:727px;top:24px;width:52px;height:35px;text-align:center;z-index:5;">
 <a href="https://etherscan.io/address/0xea32a7c808e70a5017d8613cce63ed4a6cde8f54" rel="noreferrer" target="_blank" title="Contract"><div id="IconFont2"><i class="IconFont2"></i></div></a></div>
 <button type="button" id="MintNowButton" onclick="window.location.href='https://www.mint.dogeinupunks.io';return false;" name="Mint Now!" value="Mint Now!" class="ui-button ui-corner-all ui-widget" style="position:absolute;left:830px;top:14px;width:130px;height:56px;z-index:6;" title="Mint Now!">Mint Now!</button>
+<div id="wb_Home" style="position:absolute;left:550px;top:0px;width:17px;height:26px;z-index:7;">
+<div id="Home" style="visibility:hidden;"></div>
+</div>
 </div>
 </div>
 <div id="container">
@@ -355,9 +358,9 @@ $(document).ready(function()
 <div id="wb_FaqText4" style="position:absolute;left:20px;top:3290px;width:276px;height:98px;visibility:hidden;z-index:57;">
 <span style="color:#FFFFFF;font-family:Pixellari;font-size:19px;"><br>&nbsp; 4 - Blockchain</span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><br><br></span><span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;">&nbsp; Ethereum.<br></span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><br></span></div>
 <div id="wb_FaqText5" style="position:absolute;left:27px;top:3027px;width:274px;height:579px;visibility:hidden;z-index:58;">
-<span style="color:#FFFFFF;font-family:Pixellari;font-size:19px;"><br>&nbsp; 5 - How to mint ?<br></span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><br></span><span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;">&nbsp; First, make sure you have enough $ETH in your wallet and that your wallet is on the correct mainnet (Ethereum's mainnet).<br><br>&nbsp; By simply clicking the Mint button, you will be redirected to the minting page and pressing &quot;connect to metamask&quot; to log into your Metamask wallet, select the amount and click the buy button. <br><br>&nbsp; If Metamask is installed correctly, a pop-up window will open and you just need to confirm the transaction. You can adjust the gas limit according to the network situation but it is not recommended to significantly lower the gas limit to avoid a transaction error.<br><br>&nbsp; After the mint is finished, you can directly view your NFT in Opensea at dogeinupunks collection and put it up for sale if you wish in the second market.<br><br></span><span style="color:#000000;font-family:Arial;font-size:13px;"><br></span></div>
+<span style="color:#FFFFFF;font-family:Pixellari;font-size:19px;"><br>&nbsp; 5 - How to mint ?<br></span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><br></span><span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;">&nbsp; First, make sure you have enough $ETH in your wallet and that your wallet is on the correct mainnet (Ethereum's mainnet).<br><br>&nbsp; By simply clicking the Mint button, you will be redirected to the minting page and pressing &quot;connect to metamask&quot; to log into your Metamask wallet, select the amount and click the buy button. <br><br>&nbsp; If Metamask is installed correctly, a pop-up window will open and you just need to confirm the transaction. You can adjust the gas limit according to the network situation but it is not recommended to significantly lower the gas limit to avoid a transaction error.<br><br>&nbsp; After the mint is finished, you can directly view your NFT in Opensea at dogeinupunks collection and put it up for sale if you wish in the second market.<br><br><br><br><br></span><span style="color:#000000;font-family:Arial;font-size:13px;"><br></span></div>
 <div id="wb_FaqText6" style="position:absolute;left:26px;top:2964px;width:274px;height:406px;visibility:hidden;z-index:59;">
-<span style="color:#FFFFFF;font-family:Pixellari;font-size:19px;"><br>&nbsp; 6 - What's different with&nbsp;&nbsp;&nbsp;&nbsp; others crypto punks projects ?<br></span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><br></span><span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;">&nbsp; DogeInu Punks has been redesigning&nbsp; from scratch and new traits have been added that don't exist in the original. <br><br>&nbsp; Along with similar punk types (Alien, Male, Female, etc ...), we've added new attributes like new backgrounds, pins, and outfits. In total there are 140+ attributes.<br><br>&nbsp; Now the punk-style dogs are cuter and funnier. Rarity traits will be revealed after the mint sold out.<br><br></span></div>
+<span style="color:#FFFFFF;font-family:Pixellari;font-size:19px;"><br>&nbsp; 6 - What's different with&nbsp;&nbsp;&nbsp;&nbsp; others crypto punks projects ?<br></span><span style="color:#FFFFFF;font-family:Arial;font-size:13px;"><br></span><span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;">&nbsp; DogeInu Punks has been redesigning&nbsp; from scratch and new traits have been added that don't exist in the original. <br><br>&nbsp; Along with similar punk types (Alien, Male, Female, etc ...), we've added new attributes like new backgrounds, pins, and outfits. In total there are 140+ attributes.<br><br>&nbsp; Now the punk-style dogs are cuter and funnier. Rarity traits will be revealed after the mint sold out.<br><br><br><br><br></span></div>
 <div id="wb_PhotoGallery1" style="position:absolute;left:46px;top:3978px;width:904px;height:194px;z-index:60;">
 <div id="PhotoGallery1">
    <div class="thumbnails">
@@ -444,34 +447,34 @@ $(document).ready(function()
 <div id="FaqAccordion">
 <h4>Public mint date</h4>
 <div>
-<div id="wb_Question1" style="position:absolute;left:23px;top:17px;width:249px;height:19px;z-index:8;">
+<div id="wb_Question1" style="position:absolute;left:23px;top:17px;width:249px;height:19px;z-index:9;">
 <span style="color:#FFFFFF;font-family:Pixellari;font-size:19px;">Live now.</span></div>
 </div>
 <h4>How much will it cost to mint each DogeInu Punk ?</h4>
 <div>
-<div id="wb_Question2" style="position:absolute;left:23px;top:20px;width:250px;height:19px;z-index:9;">
+<div id="wb_Question2" style="position:absolute;left:23px;top:20px;width:250px;height:19px;z-index:10;">
 <span style="color:#FFFFFF;font-family:Pixellari;font-size:19px;">0.05ETH excluding gas fees</span></div>
 </div>
 <h4>How many DogeInu Punks in total and can be minted in a single transaction ?</h4>
 <div>
-<div id="wb_Question3" style="position:absolute;left:23px;top:17px;width:337px;height:19px;z-index:10;">
+<div id="wb_Question3" style="position:absolute;left:23px;top:17px;width:337px;height:19px;z-index:11;">
 <span style="color:#FFFFFF;font-family:Pixellari;font-size:19px;">Supply of 10,000 NFTs and 15 per tx.</span></div>
 </div>
 <h4>Blockchain</h4>
 <div>
-<div id="wb_Text2" style="position:absolute;left:23px;top:16px;width:251px;height:19px;z-index:11;">
+<div id="wb_Text2" style="position:absolute;left:23px;top:16px;width:251px;height:19px;z-index:12;">
 <span style="color:#FFFFFF;font-family:Pixellari;font-size:19px;">Ethereun blockchain.</span></div>
-<div id="wb_Question4" style="position:absolute;left:10px;top:-146px;width:251px;height:16px;z-index:12;">
+<div id="wb_Question4" style="position:absolute;left:10px;top:-146px;width:251px;height:16px;z-index:13;">
 <span style="color:#FFFFFF;font-family:Pixellari;font-size:19px;">Ethereun blockchain.</span></div>
 </div>
 <h4>How to mint ?</h4>
 <div>
-<div id="wb_Question5" style="position:absolute;left:23px;top:15px;width:684px;height:264px;z-index:13;">
+<div id="wb_Question5" style="position:absolute;left:23px;top:15px;width:684px;height:264px;z-index:14;">
 <span style="color:#FFFFFF;font-family:Pixellari;font-size:19px;">First, make sure you have enough $ETH in your wallet and that your wallet is on the correct mainnet (Ethereum's mainnet).<br><br>By simply clicking the Mint button, you will be redirected to the minting page and pressing &quot;connect to metamask&quot; to log into your Metamask wallet, select the amount and click the buy button. <br><br>If Metamask is installed correctly, a pop-up window will open and you just need to confirm the transaction. <br>You can adjust the gas limit according to the network situation but it is not recommended to significantly lower the gas limit to avoid a transaction error.<br><br>After the mint is finished, you can directly view your NFT in Opensea at dogeinupunks collection and can put it up for sale in the second market.</span><span style="color:#000000;font-family:Arial;font-size:19px;">.</span></div>
 </div>
 <h4>What's different with others crypto punks projects ?</h4>
 <div>
-<div id="wb_Question6" style="position:absolute;left:23px;top:16px;width:681px;height:168px;z-index:14;">
+<div id="wb_Question6" style="position:absolute;left:23px;top:16px;width:681px;height:168px;z-index:15;">
 <span style="color:#FFFFFF;font-family:Pixellari;font-size:19px;">DogeInu Punks has been redesigning from scratch and new traits have been added that don't exist in the original. <br><br>Along with similar punk types (Alien, Male, Female, etc ...), we've added new attributes like new backgrounds, pins, and outfits. In total there are 140+ attributes.<br><br>Now the punk-style dogs are cuter and funnier. Rarity traits will be revealed after the mint sold out.</span></div>
 </div>
 </div>
@@ -485,7 +488,7 @@ $(document).ready(function()
 <span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;"><strong><br>&nbsp; </strong>To infinity and beyond after the minting process 100% completed and organic growth constated in the second market.<br></span></div>
 <div id="wb_GalleryShape" style="position:absolute;left:99px;top:266px;width:272px;height:8px;visibility:hidden;z-index:71;">
 <img src="images/img0016.png" id="GalleryShape" alt="" width="272" height="8" style="width:272px;height:8px;"></div>
-<div id="wb_GalleryTitle" style="position:absolute;left:46px;top:3899px;width:107px;height:29px;z-index:72;">
+<div id="wb_GalleryTitle" style="position:absolute;left:46px;top:3899px;width:107px;height:24px;z-index:72;">
 <div style="position:absolute;left:0px;top:0px;width:107px;height:24px;"><span style="color:#0563C1;font-family:Pixellari;font-size:24px;"><em>GALLERY</em></span></div>
 </div>
 <button type="button" id="MintButton" onclick="window.location.href='https://www.mint.dogeinupunks.io';return false;" name="Mint" value="Mint" class="ui-button ui-corner-all ui-widget" style="position:absolute;left:406px;top:3650px;width:158px;height:63px;z-index:73;">Mint<span class="ui-button-icon ui-icon ui-primary"></span><span class="ui-button-icon-space"> </span></button>
@@ -510,7 +513,7 @@ $(document).ready(function()
 <span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;">SECOND PHASE</span></div>
 <div id="wb_RoadmapShape" style="position:absolute;left:99px;top:266px;width:272px;height:8px;visibility:hidden;z-index:83;">
 <img src="images/img0014.png" id="RoadmapShape" alt="" width="272" height="8" style="width:272px;height:8px;"></div>
-<div id="wb_RoadmapTitle" style="position:absolute;left:46px;top:1267px;width:119px;height:29px;z-index:84;" data-top="opacity:1.0;opacity:1.0;">
+<div id="wb_RoadmapTitle" style="position:absolute;left:46px;top:1267px;width:119px;height:24px;z-index:84;" data-top="opacity:1.0;opacity:1.0;">
 <div style="position:absolute;left:0px;top:0px;width:119px;height:24px;"><span style="color:#0563C1;font-family:Pixellari;font-size:24px;"><em>ROADMAP</em></span></div>
 </div>
 <div id="wb_AboutText" style="position:absolute;left:46px;top:421px;width:424px;height:616px;visibility:hidden;z-index:85;">
@@ -538,10 +541,7 @@ $(document).ready(function()
       </div>
    </div>
 </div></div>
-<div id="Logo" style="position:absolute;text-align:left;visibility:hidden;left:8px;top:6px;width:304px;height:56px;z-index:87;">
-<div id="wb_Home" style="position:absolute;left:11px;top:8px;width:17px;height:26px;z-index:15;">
-<div id="Home" style="visibility:hidden;"></div>
-</div>
+<div id="Logo" style="position:absolute;text-align:left;left:8px;top:6px;width:304px;height:56px;z-index:87;">
 <div id="wb_Logo320" style="position:absolute;left:24px;top:8px;width:255px;height:48px;visibility:hidden;z-index:16;">
 <img src="images/Logo255.webp" id="Logo320" alt="" width="255" height="48"></div>
 </div>
@@ -563,7 +563,7 @@ $(document).ready(function()
 </li>
 </ul>
 </div>
-<div id="wb_About" style="position:absolute;left:47px;top:218px;width:29px;height:32px;z-index:91;">
+<div id="wb_About" style="position:absolute;left:47px;top:257px;width:29px;height:32px;z-index:91;">
 <div id="About" style="visibility:hidden;"></div>
 </div>
 <div id="wb_Roadmap" style="position:absolute;left:53px;top:1171px;width:17px;height:17px;z-index:92;">
@@ -767,7 +767,7 @@ $(document).ready(function()
 </div>
 <div id="Footer" style="position:absolute;text-align:center;left:0px;top:4311px;width:100%;height:100px;z-index:108;">
 <div id="Footer_Container" style="width:969px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
-<div id="wb_FooterText" style="position:absolute;left:95px;top:42px;width:780px;height:16px;text-align:center;z-index:7;">
+<div id="wb_FooterText" style="position:absolute;left:95px;top:42px;width:780px;height:16px;text-align:center;z-index:8;">
 <span style="color:#FFFFFF;font-family:Pixellari;font-size:16px;">Copyright © DogeInu Punks&nbsp; ·&nbsp; All Rights reserved </span></div>
 </div>
 </div>
